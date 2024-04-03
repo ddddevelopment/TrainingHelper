@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Results.DAL/1.0.0": {
+        "dependencies": {
+          "Results.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Results.DAL.dll": {}
+        }
+      },
+      "Results.Domain/1.0.0": {
+        "runtime": {
+          "Results.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Results.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Results.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

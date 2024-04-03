@@ -3,17 +3,44 @@
   "WorkspaceRootPath": "D:\\Programming\\Projects\\TrainingHelper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEEFA263-7F02-4109-9F4B-9E0AC0461536}|src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj|d:\\programming\\projects\\traininghelper\\src\\tests\\results\\resultsservicetests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AEEFA263-7F02-4109-9F4B-9E0AC0461536}|src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj|solutionrelative:src\\tests\\results\\resultsservicetests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4125AE6-9C0A-4239-8442-29AB02FD78E2}|..\\src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|d:\\programming\\projects\\src\\services\\results\\results.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AEEFA263-7F02-4109-9F4B-9E0AC0461536}|src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj|d:\\programming\\projects\\traininghelper\\src\\tests\\results\\resultsservicetests\\resultsservicecreatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEEFA263-7F02-4109-9F4B-9E0AC0461536}|src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj|solutionrelative:src\\tests\\results\\resultsservicetests\\resultsservicecreatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{786EB411-365C-46BE-B8FC-B85F9E57E006}|..\\src\\Services\\Results\\Results.DAL\\Results.DAL.csproj|d:\\programming\\projects\\src\\services\\results\\results.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\models\\resultpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\models\\resultpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E99909-019A-4E9F-A4EA-9D1C9022CB92}|..\\src\\Services\\Results\\Results.Application\\Results.Application.csproj|d:\\programming\\projects\\src\\services\\results\\results.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA1584D9-860F-4BFA-A757-3D0910AF2417}|src\\Services\\Results\\Results.DAL\\Results.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.dal\\repositories\\resultsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA1584D9-860F-4BFA-A757-3D0910AF2417}|src\\Services\\Results\\Results.DAL\\Results.DAL.csproj|solutionrelative:src\\services\\results\\results.dal\\repositories\\resultsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD9B34E-7263-4798-AF98-D69124AD3C87}|src\\Services\\Results\\Results.Application\\Results.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.application\\services\\resultsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD9B34E-7263-4798-AF98-D69124AD3C87}|src\\Services\\Results\\Results.Application\\Results.Application.csproj|solutionrelative:src\\services\\results\\results.application\\services\\resultsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.domain\\abstractions\\repositories\\iresultsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|solutionrelative:src\\services\\results\\results.domain\\abstractions\\repositories\\iresultsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.domain\\abstractions\\services\\iresultsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|solutionrelative:src\\services\\results\\results.domain\\abstractions\\services\\iresultsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.domain\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|solutionrelative:src\\services\\results\\results.domain\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD9B34E-7263-4798-AF98-D69124AD3C87}|src\\Services\\Results\\Results.Application\\Results.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.application\\results.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7CD9B34E-7263-4798-AF98-D69124AD3C87}|src\\Services\\Results\\Results.Application\\Results.Application.csproj|solutionrelative:src\\services\\results\\results.application\\results.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +49,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 285,
-          "SelectedChildIndex": 1,
+          "DockedHeight": 309,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,55 +58,143 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "src\\Tests\\Results\\ResultsServiceTests\\UnitTest1.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\UnitTest1.cs",
-              "RelativeToolTip": "src\\Tests\\Results\\ResultsServiceTests\\UnitTest1.cs",
+              "DocumentIndex": 2,
+              "Title": "ResultPresentation.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Models\\ResultPresentation.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Models\\ResultPresentation.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Models\\ResultPresentation.cs",
+              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Models\\ResultPresentation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:40:13.889Z",
+              "WhenOpened": "2024-04-03T20:58:51.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResultsController.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
+              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T20:43:45.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IResultsService.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Abstractions\\Services\\IResultsService.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Domain\\Abstractions\\Services\\IResultsService.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Abstractions\\Services\\IResultsService.cs",
+              "RelativeToolTip": "src\\Services\\Results\\Results.Domain\\Abstractions\\Services\\IResultsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:07:40.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
+              "RelativeToolTip": "src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:02:28.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResultsRepository.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
+              "RelativeToolTip": "src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:58:35.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResultsService.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Services\\ResultsService.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Application\\Services\\ResultsService.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Services\\ResultsService.cs",
+              "RelativeToolTip": "src\\Services\\Results\\Results.Application\\Services\\ResultsService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA8wBEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:43:05.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\src\\Services\\Results\\Results.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\src\\Services\\Results\\Results.Domain\\Class1.cs",
-              "ToolTip": "D:\\Programming\\Projects\\src\\Services\\Results\\Results.Domain\\Class1.cs",
-              "RelativeToolTip": "..\\src\\Services\\Results\\Results.Domain\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ResultsServiceCreateTests.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceCreateTests.cs",
+              "RelativeDocumentMoniker": "src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceCreateTests.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceCreateTests.cs",
+              "RelativeToolTip": "src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceCreateTests.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:37:39.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\src\\Services\\Results\\Results.DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\src\\Services\\Results\\Results.DAL\\Class1.cs",
-              "ToolTip": "D:\\Programming\\Projects\\src\\Services\\Results\\Results.DAL\\Class1.cs",
-              "RelativeToolTip": "..\\src\\Services\\Results\\Results.DAL\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:37:13.007Z",
+              "WhenOpened": "2024-04-03T18:34:50.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\src\\Services\\Results\\Results.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\src\\Services\\Results\\Results.Application\\Class1.cs",
-              "ToolTip": "D:\\Programming\\Projects\\src\\Services\\Results\\Results.Application\\Class1.cs",
-              "RelativeToolTip": "..\\src\\Services\\Results\\Results.Application\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Program.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Program.cs",
+              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:36:48.332Z",
+              "WhenOpened": "2024-04-03T18:33:58.099Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IResultsRepository.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Abstractions\\Repositories\\IResultsRepository.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Domain\\Abstractions\\Repositories\\IResultsRepository.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Abstractions\\Repositories\\IResultsRepository.cs",
+              "RelativeToolTip": "src\\Services\\Results\\Results.Domain\\Abstractions\\Repositories\\IResultsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:15:40.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Results.Application.csproj",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Results.Application.csproj",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Application\\Results.Application.csproj",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Results.Application.csproj",
+              "RelativeToolTip": "src\\Services\\Results\\Results.Application\\Results.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-03T18:33:23.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 128,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         },
@@ -94,12 +209,16 @@
           ]
         },
         {
-          "DockedHeight": 72,
+          "DockedHeight": 108,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

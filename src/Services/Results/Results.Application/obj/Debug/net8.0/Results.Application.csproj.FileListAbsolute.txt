@@ -1,0 +1,16 @@
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\bin\Debug\net8.0\Results.Application.deps.json
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\bin\Debug\net8.0\Results.Application.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\bin\Debug\net8.0\Results.Application.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\bin\Debug\net8.0\Results.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\bin\Debug\net8.0\Results.Domain.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\Results.Application.csproj.AssemblyReference.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\Results.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\Results.Application.AssemblyInfoInputs.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\Results.Application.AssemblyInfo.cs
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\Results.Application.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\Results.Application.sourcelink.json
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\Results..F96069EB.Up2Date
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\Results.Application.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\refint\Results.Application.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\Results.Application.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Application\obj\Debug\net8.0\ref\Results.Application.dll

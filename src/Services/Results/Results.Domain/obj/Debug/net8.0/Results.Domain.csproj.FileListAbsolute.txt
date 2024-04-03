@@ -1,0 +1,12 @@
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\bin\Debug\net8.0\Results.Domain.deps.json
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\bin\Debug\net8.0\Results.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\bin\Debug\net8.0\Results.Domain.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\obj\Debug\net8.0\Results.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\obj\Debug\net8.0\Results.Domain.AssemblyInfoInputs.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\obj\Debug\net8.0\Results.Domain.AssemblyInfo.cs
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\obj\Debug\net8.0\Results.Domain.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\obj\Debug\net8.0\Results.Domain.sourcelink.json
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\obj\Debug\net8.0\Results.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\obj\Debug\net8.0\refint\Results.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\obj\Debug\net8.0\Results.Domain.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Domain\obj\Debug\net8.0\ref\Results.Domain.dll

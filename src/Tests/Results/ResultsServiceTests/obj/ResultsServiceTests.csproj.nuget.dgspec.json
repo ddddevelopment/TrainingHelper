@@ -4,14 +4,142 @@
     "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj": {
+    "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Results.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj",
-        "projectName": "ResultsServiceTests",
-        "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj",
+        "projectUniqueName": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Results.Application.csproj",
+        "projectName": "Results.Application",
+        "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Results.Application.csproj",
         "packagesPath": "C:\\Users\\dgorb\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\obj\\",
+        "outputPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dgorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Results.Domain.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Results.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Results.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Results.DAL.csproj",
+        "projectName": "Results.DAL",
+        "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Results.DAL.csproj",
+        "packagesPath": "C:\\Users\\dgorb\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dgorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Results.Domain.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Results.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Results.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Results.Domain.csproj",
+        "projectName": "Results.Domain",
+        "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Results.Domain.csproj",
+        "packagesPath": "C:\\Users\\dgorb\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dgorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,10 +172,81 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj",
+        "projectName": "ResultsServiceTests",
+        "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\ResultsServiceTests.csproj",
+        "packagesPath": "C:\\Users\\dgorb\\.nuget\\packages\\",
+        "outputPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Results\\ResultsServiceTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dgorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Results.Application.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Results.Application.csproj"
+              },
+              "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Results.DAL.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Results.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.8.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "NUnit": {
               "target": "Package",
