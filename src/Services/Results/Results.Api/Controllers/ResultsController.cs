@@ -19,6 +19,7 @@ namespace Results.Api.Controllers
             _mapper = mapper;
         }
 
+        [HttpPost]
         public async Task<ActionResult> Create(ResultPresentation resultPresentation)
         {
             Result result = _mapper.Map<Result>(resultPresentation);

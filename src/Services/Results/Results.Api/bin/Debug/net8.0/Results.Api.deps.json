@@ -10,6 +10,8 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6",
+          "Results.Application": "1.0.0",
+          "Results.DAL": "1.0.0",
           "Results.Domain": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
@@ -89,6 +91,22 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "Results.Application/1.0.0": {
+        "dependencies": {
+          "Results.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Results.Application.dll": {}
+        }
+      },
+      "Results.DAL/1.0.0": {
+        "dependencies": {
+          "Results.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Results.DAL.dll": {}
+        }
+      },
       "Results.Domain/1.0.0": {
         "runtime": {
           "Results.Domain.dll": {}
@@ -185,6 +203,16 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "Results.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Results.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Results.Domain/1.0.0": {
       "type": "project",

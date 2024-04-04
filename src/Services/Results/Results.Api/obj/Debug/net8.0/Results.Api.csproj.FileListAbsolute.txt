@@ -34,3 +34,7 @@ D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\obj\Debu
 D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\bin\Debug\net8.0\AutoMapper.dll
 D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\bin\Debug\net8.0\Results.Domain.dll
 D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\bin\Debug\net8.0\Results.Domain.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\bin\Debug\net8.0\Results.Application.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\bin\Debug\net8.0\Results.DAL.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\bin\Debug\net8.0\Results.Application.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\bin\Debug\net8.0\Results.DAL.pdb

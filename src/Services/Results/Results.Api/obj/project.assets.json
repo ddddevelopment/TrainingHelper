@@ -180,6 +180,32 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Results.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Results.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.Application.dll": {}
+        }
+      },
+      "Results.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Results.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Results.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Results.DAL.dll": {}
+        }
+      },
       "Results.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -714,6 +740,16 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Results.Application/1.0.0": {
+      "type": "project",
+      "path": "../Results.Application/Results.Application.csproj",
+      "msbuildProject": "../Results.Application/Results.Application.csproj"
+    },
+    "Results.DAL/1.0.0": {
+      "type": "project",
+      "path": "../Results.DAL/Results.DAL.csproj",
+      "msbuildProject": "../Results.DAL/Results.DAL.csproj"
+    },
     "Results.Domain/1.0.0": {
       "type": "project",
       "path": "../Results.Domain/Results.Domain.csproj",
@@ -724,6 +760,8 @@
     "net8.0": [
       "AutoMapper >= 13.0.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.19.6",
+      "Results.Application >= 1.0.0",
+      "Results.DAL >= 1.0.0",
       "Results.Domain >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -755,6 +793,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Results.Application.csproj": {
+              "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Application\\Results.Application.csproj"
+            },
+            "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Results.DAL.csproj": {
+              "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Results.DAL.csproj"
+            },
             "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Results.Domain.csproj": {
               "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Results.Domain.csproj"
             }
