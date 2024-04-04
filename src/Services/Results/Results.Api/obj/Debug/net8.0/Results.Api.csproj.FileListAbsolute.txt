@@ -31,3 +31,6 @@ D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\obj\Debu
 D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\obj\Debug\net8.0\Results.Api.pdb
 D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\obj\Debug\net8.0\Results.Api.genruntimeconfig.cache
 D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\obj\Debug\net8.0\ref\Results.Api.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\bin\Debug\net8.0\AutoMapper.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\bin\Debug\net8.0\Results.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Results\Results.Api\bin\Debug\net8.0\Results.Domain.pdb
