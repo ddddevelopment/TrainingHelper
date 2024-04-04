@@ -1,8 +1,5 @@
 using Results.Api;
-using Results.Application.Services;
-using Results.DAL.Repositories;
-using Results.Domain.Abstractions.Repositories;
-using Results.Domain.Abstractions.Services;
+using Results.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +9,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(ApiMappingProfile));
 
-builder.Services.AddScoped<IResultsService, ResultsService>();
-builder.Services.AddScoped<IResultsRepository, ResultsRepository>();
+builder.Services.Configure<DbConfiguration>(builder.Configuration.GetSection("DbConfiguration"));
 
 var app = builder.Build();
 
