@@ -1,4 +1,5 @@
 using Results.Api;
+using Results.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(ApiMappingProfile));
+
+builder.Services.Configure<DbConfiguration>(builder.Configuration.GetSection("DbConfiguration"));
 
 var app = builder.Build();
 

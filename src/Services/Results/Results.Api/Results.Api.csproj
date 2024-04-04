@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Results.DAL\Results.DAL.csproj" />
     <ProjectReference Include="..\Results.Domain\Results.Domain.csproj" />
   </ItemGroup>
 
