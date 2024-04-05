@@ -201,6 +201,7 @@
       },
       "Results.DAL/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "Npgsql": "8.0.2",
           "Results.Domain": "1.0.0",
           "System.Data.SqlClient": "4.8.6"

@@ -1,16 +1,20 @@
 ﻿using Results.Domain.Abstractions.Repositories;
 using Results.Domain.Models;
 using Npgsql;
+using AutoMapper;
+using Results.DAL.Entities;
 
 namespace Results.DAL.Repositories
 {
     public class ResultsRepository : IResultsRepository
     {
         private readonly DbConfiguration _dbConfiguration;
+        private readonly IMapper _mapper;
 
-        public ResultsRepository(DbConfiguration dbConfiguration)
+        public ResultsRepository(DbConfiguration dbConfiguration, IMapper mapper)
         {
             _dbConfiguration = dbConfiguration;
+            _mapper = mapper;
         }
 
         public async Task Add(Result result)
@@ -25,9 +29,11 @@ namespace Results.DAL.Repositories
 
             using (NpgsqlConnection connection = new NpgsqlConnection(builder.ConnectionString))
             {
+                ResultEntity resultEntity = _mapper.Map<ResultEntity>(result);
+
                 string addValuesQuery = "INSERT INTO results\r\n" +
                     "VALUES\r\n" +
-                    $"('{result.Id}', '{result.Exercise}', {result.WeightKg}, {result.NumberOfRepetitions})";
+                    $"('{resultEntity.Id}', '{resultEntity.Exercise}', {resultEntity.WeightKg}, {resultEntity.NumberOfRepetitions})";
 
                 using (NpgsqlCommand command = new NpgsqlCommand(addValuesQuery, connection))
                 {

@@ -13,7 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddAutoMapper(typeof(ApiMappingProfile));
+builder.Services.AddAutoMapper(typeof(ApiMappingProfile), typeof(DALMappingProfile));
 
 builder.Services.AddSingleton<IValidator<ResultPresentation>, ResultPresentationValidator>();
 
