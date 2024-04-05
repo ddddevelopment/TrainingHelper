@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zz9wtvtb+l0uVfNnKycD/eRDCdSKK7jSWLpkjB6mcI5LezD09dmrzivu7FEUZbOd2FtiesndPQzvAPoU4Q/AMg==",
+  "dgSpecHash": "xcr+Fa7EpXkAkTyREOYyo5yI5Jy6VMgTeW6y/lR0XUiI/sdonjyB2/e5fBnFmR/8IU8eQkH4gYAPOoH8Y8HPUQ==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Results.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dgorb\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",

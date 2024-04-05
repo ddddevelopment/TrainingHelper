@@ -1,4 +1,6 @@
+using FluentValidation;
 using Results.Api;
+using Results.Api.Models;
 using Results.Application.Services;
 using Results.DAL;
 using Results.DAL.Repositories;
@@ -12,6 +14,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(ApiMappingProfile));
+
+builder.Services.AddSingleton<IValidator<ResultPresentation>, ResultPresentationValidator>();
 
 var dbConfiguration = builder.Configuration.GetSection("DbConfiguration");
 
