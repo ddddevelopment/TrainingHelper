@@ -1,5 +1,9 @@
 using Results.Api;
+using Results.Application.Services;
 using Results.DAL;
+using Results.DAL.Repositories;
+using Results.Domain.Abstractions.Repositories;
+using Results.Domain.Abstractions.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +13,16 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddAutoMapper(typeof(ApiMappingProfile));
 
-builder.Services.Configure<DbConfiguration>(builder.Configuration.GetSection("DbConfiguration"));
+var dbConfiguration = builder.Configuration.GetSection("DbConfiguration");
+
+builder.Services.AddSingleton(configuration => new DbConfiguration(
+                            dbConfiguration.GetSection("Host").Value,
+                            dbConfiguration.GetSection("Database").Value,
+                            dbConfiguration.GetSection("Username").Value,
+                            dbConfiguration.GetSection("Password").Value));
+
+builder.Services.AddScoped<IResultsService, ResultsService>();
+builder.Services.AddScoped<IResultsRepository, ResultsRepository>();
 
 var app = builder.Build();
 

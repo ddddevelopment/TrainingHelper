@@ -25,7 +25,7 @@ namespace Results.Api.Controllers
             Result result = _mapper.Map<Result>(resultPresentation);
             await _service.Create(result);
 
-            return Ok(result);
+            return Ok();
         }
     }
 }

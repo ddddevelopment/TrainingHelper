@@ -2,13 +2,17 @@
 {
     public class DbConfiguration
     {
-        public DbConfiguration(string connectionString, string databaseName)
+        public DbConfiguration(string host, string database, string username, string password)
         {
-            ConnectionString = connectionString;
-            DatabaseName = databaseName;
+            Host = host;
+            Database = database;
+            Username = username;
+            Password = password;
         }
 
-        public string ConnectionString { get; }
-        public string DatabaseName { get; }
+        public string Host { get; }
+        public string Database { get; }
+        public string Username { get; }
+        public string Password { get; }
     }
 }
