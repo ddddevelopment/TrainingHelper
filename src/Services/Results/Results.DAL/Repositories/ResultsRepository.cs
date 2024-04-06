@@ -42,5 +42,10 @@ namespace Results.DAL.Repositories
                 }
             }
         }
+
+        public Task<Result> Get(Guid id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
