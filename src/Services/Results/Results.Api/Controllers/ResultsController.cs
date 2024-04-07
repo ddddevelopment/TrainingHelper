@@ -38,5 +38,15 @@ namespace Results.Api.Controllers
 
             return Ok();
         }
+
+        [HttpGet]
+        public async Task<ResultPresentation> Get(Guid id)
+        {
+            Result result = await _service.Get(id);
+
+            ResultPresentation resultPresentation = _mapper.Map<ResultPresentation>(result);
+
+            return resultPresentation;
+        }
     }
 }

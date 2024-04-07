@@ -3,8 +3,6 @@ using Results.Domain.Models;
 using Npgsql;
 using AutoMapper;
 using Results.DAL.Entities;
-using System.Data.SqlClient;
-using System.Xml;
 
 namespace Results.DAL.Repositories
 {
@@ -49,7 +47,7 @@ namespace Results.DAL.Repositories
                 string getQuery =
                 "SELECT *\r\n" +
                 "FROM results\r\n" +
-                $"WHERE id = {id}";
+                $"WHERE id = '{id}'";
 
                 using (NpgsqlCommand command = new NpgsqlCommand(getQuery, connection))
                 {
@@ -59,13 +57,13 @@ namespace Results.DAL.Repositories
                     {
                         while (await resultReader.ReadAsync())
                         {
-                            var resultId = resultReader["id"];
-                            var resultExercise = resultReader["exercise"];
-                            var resultWeightkg = resultReader["weightkg"];
-                            var resultNumberOfRepetitions = resultReader["numberOfRepetitions"];
+                            string resultId = resultReader["id"].ToString();
+                            string resultExercise = resultReader["exercise"].ToString();
+                            string resultWeightkg = resultReader["weight_kg"].ToString();
+                            string resultNumberOfRepetitions = resultReader["number_of_Repetitions"].ToString();
 
                             ResultEntity resultEntity =
-                                new ResultEntity((Guid)resultId, (string)resultExercise, (float)resultWeightkg, (int)resultNumberOfRepetitions);
+                                new ResultEntity(Guid.Parse(resultId), resultExercise, float.Parse(resultWeightkg), int.Parse(resultNumberOfRepetitions));
 
                             Result result = _mapper.Map<Result>(resultEntity);
 
