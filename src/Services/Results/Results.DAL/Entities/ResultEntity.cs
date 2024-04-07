@@ -2,7 +2,7 @@
 {
     public class ResultEntity
     {
-        public ResultEntity(Guid id, string exercise, int weightKg, int numberOfRepetitions)
+        public ResultEntity(Guid id, string exercise, float weightKg, int numberOfRepetitions)
         {
             Id = id;
             Exercise = exercise;
@@ -12,7 +12,7 @@
 
         public Guid Id { get; }
         public string Exercise { get; }
-        public int WeightKg { get; }
+        public float WeightKg { get; }
         public int NumberOfRepetitions { get; }
     }
 }
