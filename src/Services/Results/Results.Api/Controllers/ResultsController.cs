@@ -40,13 +40,21 @@ namespace Results.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ResultPresentation> Get(Guid id)
+        public async Task<ActionResult<ResultPresentation>> Get(Guid id)
         {
             Result result = await _service.Get(id);
 
             ResultPresentation resultPresentation = _mapper.Map<ResultPresentation>(result);
 
-            return resultPresentation;
+            return Ok(resultPresentation);
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult> Delete(Guid id)
+        {
+            await _service.Delete(id);
+
+            return Ok();
         }
     }
 }

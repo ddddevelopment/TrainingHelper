@@ -6,5 +6,6 @@ namespace Results.Domain.Abstractions.Repositories
     {
         Task Add(Result result);
         Task<Result> Get(Guid id);
+        Task Remove(Guid id);
     }
 }

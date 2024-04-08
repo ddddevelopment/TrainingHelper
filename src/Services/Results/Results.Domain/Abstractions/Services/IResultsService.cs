@@ -6,5 +6,6 @@ namespace Results.Domain.Abstractions.Services
     {
         Task Create(Result result);
         Task<Result> Get(Guid id);
+        Task Delete(Guid id);
     }
 }

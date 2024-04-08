@@ -76,6 +76,25 @@ namespace Results.DAL.Repositories
             }
         }
 
+        public async Task Remove(Guid id)
+        {
+            NpgsqlConnectionStringBuilder builder = CreateConnectionStringBuilderWithProperties();
+
+            using (NpgsqlConnection connection = new NpgsqlConnection(builder.ConnectionString))
+            {
+                string deleteQuery =
+                    "DELETE\r\n" +
+                    "FROM results\r\n" +
+                    $"WHERE id = '{id}'";
+
+                using (NpgsqlCommand command = new NpgsqlCommand(deleteQuery, connection))
+                {
+                    connection.Open();
+                    await command.ExecuteNonQueryAsync();
+                }
+            }
+        }
+
         private NpgsqlConnectionStringBuilder CreateConnectionStringBuilderWithProperties()
         {
             NpgsqlConnectionStringBuilder builder = new NpgsqlConnectionStringBuilder()

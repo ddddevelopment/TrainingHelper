@@ -24,5 +24,10 @@ namespace Results.Application.Services
 
             return result;
         }
+
+        public async Task Delete(Guid id)
+        {
+            await _repository.Remove(id);
+        }
     }
 }
