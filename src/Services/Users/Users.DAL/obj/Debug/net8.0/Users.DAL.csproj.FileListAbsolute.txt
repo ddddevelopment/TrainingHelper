@@ -1,0 +1,16 @@
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\bin\Debug\net8.0\Users.DAL.deps.json
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\bin\Debug\net8.0\Users.DAL.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\bin\Debug\net8.0\Users.DAL.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\bin\Debug\net8.0\Users.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\bin\Debug\net8.0\Users.Domain.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\Users.DAL.csproj.AssemblyReference.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\Users.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\Users.DAL.AssemblyInfoInputs.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\Users.DAL.AssemblyInfo.cs
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\Users.DAL.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\Users.DAL.sourcelink.json
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\Users.DAL.csproj.Up2Date
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\Users.DAL.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\refint\Users.DAL.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\Users.DAL.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.DAL\obj\Debug\net8.0\ref\Users.DAL.dll
