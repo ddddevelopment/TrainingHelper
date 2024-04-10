@@ -9,7 +9,7 @@ using Results.Domain.Models;
 namespace Results.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ResultsController : ControllerBase
     {
         private readonly IResultsService _service;
