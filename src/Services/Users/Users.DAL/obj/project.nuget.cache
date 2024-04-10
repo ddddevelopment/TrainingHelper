@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "kx+GcBzwI/Gv59XEjlc8V3mM3mmVY36O5BQWRdh6O4nqCrLV/DYlayKZXD8NkO9FqX6rppW9wQh7wRZVJXNXhA==",
+  "dgSpecHash": "vXhHD1uRuAIzg7de9oGdN2UhMyRdZ2TynT4n8vHvj5VEH6CMEtX63Z8EnUuuB8xZeXEkquYzKTHm5tlNXyGH8A==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Users.DAL.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

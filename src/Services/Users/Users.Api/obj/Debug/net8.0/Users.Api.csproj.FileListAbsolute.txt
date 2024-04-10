@@ -37,3 +37,4 @@ D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\ne
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Users.DAL.dll
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Users.Application.pdb
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Users.DAL.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Npgsql.dll
