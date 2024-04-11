@@ -20,7 +20,7 @@ namespace Users.DAL.Repositories
             using (NpgsqlConnection connection = new NpgsqlConnection(builder.ConnectionString))
             {
                 string addQuery =
-                    $"INSERT INTO Results\r\n" +
+                    $"INSERT INTO users\r\n" +
                     "VALUES\r\n" +
                     $"('{user.Id}', '{user.Name}', '{user.Email}')";
 
