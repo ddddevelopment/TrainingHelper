@@ -25,5 +25,13 @@ namespace Users.Api.Controllers
 
             return Ok(user);
         }
+
+        [HttpGet]
+        public async Task<ActionResult> Get(Guid id)
+        {
+            User user = await _service.Get(id);
+
+            return Ok(user);
+        }
     }
 }

@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "D:\\Programming\\Projects\\TrainingHelper\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B24814-60B1-44B6-AB6C-BDBA815F555C}|src\\Services\\Users\\Users.Application\\Users.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B24814-60B1-44B6-AB6C-BDBA815F555C}|src\\Services\\Users\\Users.Application\\Users.Application.csproj|solutionrelative:src\\services\\users\\users.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C9245D-117E-4E7B-BED4-320B591B4159}|src\\Tests\\Users\\UsersServiceTests\\UsersServiceTests.csproj|d:\\programming\\projects\\traininghelper\\src\\tests\\users\\usersservicetests\\usersservicegettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C9245D-117E-4E7B-BED4-320B591B4159}|src\\Tests\\Users\\UsersServiceTests\\UsersServiceTests.csproj|solutionrelative:src\\tests\\users\\usersservicetests\\usersservicegettests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C9245D-117E-4E7B-BED4-320B591B4159}|src\\Tests\\Users\\UsersServiceTests\\UsersServiceTests.csproj|d:\\programming\\projects\\traininghelper\\src\\tests\\users\\usersservicetests\\usersservicecreatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C9245D-117E-4E7B-BED4-320B591B4159}|src\\Tests\\Users\\UsersServiceTests\\UsersServiceTests.csproj|solutionrelative:src\\tests\\users\\usersservicetests\\usersservicecreatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\models\\userpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\models\\userpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|solutionrelative:src\\services\\users\\users.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|solutionrelative:src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.domain\\abstractions\\services\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|solutionrelative:src\\services\\users\\users.domain\\abstractions\\services\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.domain\\abstractions\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|solutionrelative:src\\services\\users\\users.domain\\abstractions\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 309,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +78,136 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserPresentation.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Models\\UserPresentation.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Models\\UserPresentation.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Models\\UserPresentation.cs",
+              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Models\\UserPresentation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:55:13.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Domain\\Models\\User.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Models\\User.cs",
+              "RelativeToolTip": "src\\Services\\Users\\Users.Domain\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:54:08.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
+              "RelativeToolTip": "src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:50:14.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersServiceGetTests.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Users\\UsersServiceTests\\UsersServiceGetTests.cs",
+              "RelativeDocumentMoniker": "src\\Tests\\Users\\UsersServiceTests\\UsersServiceGetTests.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Users\\UsersServiceTests\\UsersServiceGetTests.cs",
+              "RelativeToolTip": "src\\Tests\\Users\\UsersServiceTests\\UsersServiceGetTests.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:43:23.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T17:23:45.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAADwvxUAAAAMAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwB0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T17:18:10.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "UsersServiceCreateTests.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Users\\UsersServiceTests\\UsersServiceCreateTests.cs",
+              "RelativeDocumentMoniker": "src\\Tests\\Users\\UsersServiceTests\\UsersServiceCreateTests.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Tests\\Users\\UsersServiceTests\\UsersServiceCreateTests.cs",
+              "RelativeToolTip": "src\\Tests\\Users\\UsersServiceTests\\UsersServiceCreateTests.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwB8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:44:44.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Abstractions\\Services\\IUsersService.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Domain\\Abstractions\\Services\\IUsersService.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Abstractions\\Services\\IUsersService.cs",
+              "RelativeToolTip": "src\\Services\\Users\\Users.Domain\\Abstractions\\Services\\IUsersService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:48:46.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Abstractions\\Repositories\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Domain\\Abstractions\\Repositories\\IUsersRepository.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Abstractions\\Repositories\\IUsersRepository.cs",
+              "RelativeToolTip": "src\\Services\\Users\\Users.Domain\\Abstractions\\Repositories\\IUsersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T17:48:01.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Program.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Program.cs",
+              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T17:29:48.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Dockerfile",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Dockerfile",
@@ -75,20 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Program.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Program.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T17:29:48.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\appsettings.Development.json",
@@ -96,12 +227,11 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-10T17:27:31.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T17:27:31.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "DbConfiguration.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\DbConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Services\\Results\\Results.DAL\\DbConfiguration.cs",
@@ -113,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "DbConfiguration.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\DbConfiguration.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\DbConfiguration.cs",
@@ -125,20 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAmwB8AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T17:23:45.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\appsettings.json",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\appsettings.json",
@@ -157,6 +274,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         },

@@ -17,5 +17,11 @@ namespace Users.Application.Services
         {
             await _repository.Add(user);
         }
+
+        public async Task<User> Get(Guid id)
+        {
+            User user = await _repository.Get(id);
+            return user;
+        }
     }
 }

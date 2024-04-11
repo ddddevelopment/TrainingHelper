@@ -25,7 +25,7 @@ namespace UsersServiceTests
             //arrange
 
             //act
-            var user = new User(3, "fakj", "fjaf");
+            var user = new User(Guid.NewGuid(), "fakj", "fjaf");
 
             await _service.Create(user);
 

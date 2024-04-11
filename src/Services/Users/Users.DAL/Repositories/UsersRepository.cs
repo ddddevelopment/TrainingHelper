@@ -32,6 +32,11 @@ namespace Users.DAL.Repositories
             }
         }
 
+        public Task<User> Get(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
         private NpgsqlConnectionStringBuilder CreateConnectionStringBuilderWithProperties()
         {
             NpgsqlConnectionStringBuilder builder = new NpgsqlConnectionStringBuilder()
