@@ -6,5 +6,6 @@ namespace Users.Domain.Abstractions.Services
     {
         Task Create(User user);
         Task<User> Get(Guid id);
+        Task Delete(Guid id);
     }
 }

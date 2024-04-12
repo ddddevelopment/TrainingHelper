@@ -23,5 +23,10 @@ namespace Users.Application.Services
             User user = await _repository.Get(id);
             return user;
         }
+
+        public async Task Delete(Guid id)
+        {
+            await _repository.Remove(id);
+        }
     }
 }
