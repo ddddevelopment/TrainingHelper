@@ -8,7 +8,7 @@ namespace Users.DAL.Repositories
     {
         private readonly DbConfiguration _dbConfiguration;
 
-        public UsersRepository(DbConfiguration dbConfiguration) 
+        public UsersRepository(DbConfiguration dbConfiguration)
         {
             _dbConfiguration = dbConfiguration;
         }
@@ -32,9 +32,34 @@ namespace Users.DAL.Repositories
             }
         }
 
-        public Task<User> Get(Guid id)
+        public async Task<User> Get(Guid id)
         {
-            throw new NotImplementedException();
+            NpgsqlConnectionStringBuilder builder = CreateConnectionStringBuilderWithProperties();
+
+            using (NpgsqlConnection connection = new NpgsqlConnection(builder.ConnectionString))
+            {
+                string getQuery =
+                    "SELECT *\r\n" +
+                    "FROM users\r\n" +
+                    $"WHERE user_id = '{id}'";
+                using (NpgsqlCommand command = new NpgsqlCommand(getQuery, connection))
+                {
+                    connection.Open();
+                    NpgsqlDataReader reader = command.ExecuteReader();
+
+                    while (await reader.ReadAsync())
+                    {
+                        string userName = reader["user_name"].ToString();
+                        string email = reader["email"].ToString();
+
+                        User user = new User(id, userName, email);
+
+                        return user;
+                    }
+
+                    throw new Exception($"User with id = {id} not found");
+                }
+            }
         }
 
         private NpgsqlConnectionStringBuilder CreateConnectionStringBuilderWithProperties()
