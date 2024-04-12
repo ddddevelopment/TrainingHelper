@@ -33,5 +33,13 @@ namespace Users.Api.Controllers
 
             return Ok(user);
         }
+
+        [HttpDelete]
+        public async Task<ActionResult> Delete(Guid id)
+        {
+            await _service.Delete(id);
+
+            return Ok();
+        }
     }
 }

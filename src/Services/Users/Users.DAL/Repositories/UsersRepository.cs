@@ -62,9 +62,23 @@ namespace Users.DAL.Repositories
             }
         }
 
-        public Task Remove(Guid id)
+        public async Task Remove(Guid id)
         {
-            throw new NotImplementedException();
+            NpgsqlConnectionStringBuilder builder = CreateConnectionStringBuilderWithProperties();    
+
+            using (NpgsqlConnection connection = new NpgsqlConnection(builder.ConnectionString))
+            {
+                string deleteQuery = 
+                    "DELETE\r\n" +
+                    "FROM users\r\n" +
+                    $"WHERE user_id = '{id}'";
+
+                using (NpgsqlCommand command = new NpgsqlCommand(deleteQuery, connection))
+                {
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
         }
 
         private NpgsqlConnectionStringBuilder CreateConnectionStringBuilderWithProperties()
