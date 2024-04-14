@@ -1,8 +1,8 @@
 ﻿namespace Results.Api.Models
 {
-    public class ResultPresentation
+    public class ResultRequest
     {
-        public ResultPresentation(string exercise, float weightKg, int numberOfRepetitions)
+        public ResultRequest(string exercise, float weightKg, int numberOfRepetitions)
         {
             Exercise = exercise;
             WeightKg = weightKg;

@@ -3,7 +3,7 @@ using Results.Api.Models;
 
 namespace Results.Api
 {
-    public class ResultPresentationValidator : AbstractValidator<ResultPresentation>
+    public class ResultPresentationValidator : AbstractValidator<ResultRequest>
     {
         public ResultPresentationValidator()
         {

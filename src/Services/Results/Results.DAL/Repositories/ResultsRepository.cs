@@ -47,7 +47,7 @@ namespace Results.DAL.Repositories
                 string getQuery =
                 "SELECT *\r\n" +
                 "FROM results\r\n" +
-                $"WHERE id = '{id}'";
+                $"WHERE result_id = '{id}'";
 
                 using (NpgsqlCommand command = new NpgsqlCommand(getQuery, connection))
                 {
@@ -57,13 +57,12 @@ namespace Results.DAL.Repositories
                     {
                         while (await resultReader.ReadAsync())
                         {
-                            string resultId = resultReader["id"].ToString();
                             string resultExercise = resultReader["exercise"].ToString();
                             string resultWeightkg = resultReader["weight_kg"].ToString();
                             string resultNumberOfRepetitions = resultReader["number_of_Repetitions"].ToString();
 
                             ResultEntity resultEntity =
-                                new ResultEntity(Guid.Parse(resultId), resultExercise, float.Parse(resultWeightkg), int.Parse(resultNumberOfRepetitions));
+                                new ResultEntity(id, resultExercise, float.Parse(resultWeightkg), int.Parse(resultNumberOfRepetitions));
 
                             Result result = _mapper.Map<Result>(resultEntity);
 
@@ -85,7 +84,7 @@ namespace Results.DAL.Repositories
                 string deleteQuery =
                     "DELETE\r\n" +
                     "FROM results\r\n" +
-                    $"WHERE id = '{id}'";
+                    $"WHERE result_id = '{id}'";
 
                 using (NpgsqlCommand command = new NpgsqlCommand(deleteQuery, connection))
                 {

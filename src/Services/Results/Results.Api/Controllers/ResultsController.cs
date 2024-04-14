@@ -14,9 +14,9 @@ namespace Results.Api.Controllers
     {
         private readonly IResultsService _service;
         private readonly IMapper _mapper;
-        private readonly IValidator<ResultPresentation> _validator;
+        private readonly IValidator<ResultRequest> _validator;
 
-        public ResultsController(IResultsService service, IMapper mapper, IValidator<ResultPresentation> validator)
+        public ResultsController(IResultsService service, IMapper mapper, IValidator<ResultRequest> validator)
         {
             _service = service;
             _mapper = mapper;
@@ -24,7 +24,7 @@ namespace Results.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(ResultPresentation resultPresentation)
+        public async Task<ActionResult> Create(ResultRequest resultPresentation)
         {
             ValidationResult validationResult = _validator.Validate(resultPresentation);
 
@@ -33,20 +33,18 @@ namespace Results.Api.Controllers
                 return BadRequest(validationResult.Errors);
             }
 
-            Result result = _mapper.Map<Result>(resultPresentation);
+            Result result = new Result(Guid.NewGuid(), resultPresentation.Exercise, resultPresentation.WeightKg, resultPresentation.NumberOfRepetitions);
             await _service.Create(result);
 
             return Ok();
         }
 
         [HttpGet]
-        public async Task<ActionResult<ResultPresentation>> Get(Guid id)
+        public async Task<ActionResult<ResultRequest>> Get(Guid id)
         {
             Result result = await _service.Get(id);
 
-            ResultPresentation resultPresentation = _mapper.Map<ResultPresentation>(result);
-
-            return Ok(resultPresentation);
+            return Ok(result);
         }
 
         [HttpDelete]
