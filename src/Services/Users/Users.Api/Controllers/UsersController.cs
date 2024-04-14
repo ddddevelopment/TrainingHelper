@@ -19,7 +19,7 @@ namespace Users.Api.Controllers
         [HttpPost]
         public async Task<ActionResult> Create(UserPresentation userPresentation)
         {
-            User user = new User(userPresentation.Id, userPresentation.Name, userPresentation.Email);
+            User user = new User(userPresentation.Name, userPresentation.Email);
 
             await _service.Create(user);
 

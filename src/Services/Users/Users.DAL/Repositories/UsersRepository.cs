@@ -52,7 +52,7 @@ namespace Users.DAL.Repositories
                         string userName = reader["user_name"].ToString();
                         string email = reader["email"].ToString();
 
-                        User user = new User(id, userName, email);
+                        User user = new User(userName, email);
 
                         return user;
                     }
