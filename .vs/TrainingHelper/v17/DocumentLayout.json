@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Programming\\Projects\\TrainingHelper\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B24814-60B1-44B6-AB6C-BDBA815F555C}|src\\Services\\Users\\Users.Application\\Users.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B24814-60B1-44B6-AB6C-BDBA815F555C}|src\\Services\\Users\\Users.Application\\Users.Application.csproj|solutionrelative:src\\services\\users\\users.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\models\\userpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\models\\userpresentation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|solutionrelative:src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|solutionrelative:src\\services\\users\\users.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -39,77 +18,12 @@
           ]
         },
         {
-          "DockedHeight": 108,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 137,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwDYAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:25:24.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Models\\User.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Domain\\Models\\User.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Models\\User.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Domain\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:23:02.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:22:45.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserPresentation.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Models\\UserPresentation.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Models\\UserPresentation.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Models\\UserPresentation.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Models\\UserPresentation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:22:18.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersService.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:00:52.821Z",
-              "EditorCaption": ""
             }
           ]
         }

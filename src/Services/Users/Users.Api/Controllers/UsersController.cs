@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Users.Api.Models;
 using Users.Domain.Abstractions.Services;
 using Users.Domain.Models;
@@ -10,16 +11,18 @@ namespace Users.Api.Controllers
     public class UsersController : ControllerBase
     {
         private readonly IUsersService _service;
+        private readonly IMapper _mapper;
 
-        public UsersController(IUsersService service)
+        public UsersController(IUsersService service, IMapper mapper)
         {
             _service = service;
+            _mapper = mapper;
         }
 
         [HttpPost]
         public async Task<ActionResult> Create(UserPresentation userPresentation)
         {
-            User user = new User(userPresentation.Name, userPresentation.Email);
+            User user = _mapper.Map<User>(userPresentation);
 
             await _service.Create(user);
 
@@ -31,7 +34,9 @@ namespace Users.Api.Controllers
         {
             User user = await _service.Get(id);
 
-            return Ok(user);
+            UserPresentation userPresentation = _mapper.Map<UserPresentation>(user);
+
+            return Ok(userPresentation);
         }
     }
 }
