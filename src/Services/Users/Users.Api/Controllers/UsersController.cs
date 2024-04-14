@@ -20,9 +20,9 @@ namespace Users.Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Create(UserPresentation userPresentation)
+        public async Task<ActionResult> Create(UserRequest userRequest)
         {
-            User user = _mapper.Map<User>(userPresentation);
+            User user = new User(Guid.NewGuid(), userRequest.Name, userRequest.Email);
 
             await _service.Create(user);
 
@@ -34,9 +34,7 @@ namespace Users.Api.Controllers
         {
             User user = await _service.Get(id);
 
-            UserPresentation userPresentation = _mapper.Map<UserPresentation>(user);
-
-            return Ok(userPresentation);
+            return Ok(user);
         }
     }
 }

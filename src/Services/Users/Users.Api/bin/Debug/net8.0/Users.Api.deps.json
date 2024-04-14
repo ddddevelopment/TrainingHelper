@@ -117,6 +117,7 @@
       },
       "Users.DAL/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "Npgsql": "8.0.2",
           "Users.Domain": "1.0.0"
         },

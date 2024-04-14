@@ -8,7 +8,7 @@ namespace Users.Api
     {
         public ApiMappingProfile()
         {
-            CreateMap<UserPresentation, User>().ReverseMap();
+            
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using Npgsql;
+﻿using AutoMapper;
+using Npgsql;
+using Users.DAL.Models;
 using Users.Domain.Abstractions.Repositories;
 using Users.Domain.Models;
 
@@ -7,10 +9,12 @@ namespace Users.DAL.Repositories
     public class UsersRepository : IUsersRepository
     {
         private readonly DbConfiguration _dbConfiguration;
+        private readonly IMapper _mapper;
 
-        public UsersRepository(DbConfiguration dbConfiguration)
+        public UsersRepository(DbConfiguration dbConfiguration, IMapper mapper)
         {
             _dbConfiguration = dbConfiguration;
+            _mapper = mapper;
         }
 
         public async Task Add(User user)
@@ -19,10 +23,12 @@ namespace Users.DAL.Repositories
 
             using (NpgsqlConnection connection = new NpgsqlConnection(builder.ConnectionString))
             {
+                UserEntity userEntity = _mapper.Map<UserEntity>(user);
+
                 string addQuery =
                     $"INSERT INTO users\r\n" +
                     "VALUES\r\n" +
-                    $"('{user.Id}', '{user.Name}', '{user.Email}')";
+                    $"('{userEntity.Id}', '{userEntity.Name}', '{userEntity.Email}')";
 
                 using (NpgsqlCommand command = new NpgsqlCommand(addQuery, connection))
                 {
@@ -52,7 +58,9 @@ namespace Users.DAL.Repositories
                         string userName = reader["user_name"].ToString();
                         string email = reader["email"].ToString();
 
-                        User user = new User(userName, email);
+                        UserEntity userEntity = new UserEntity(id, userName, email);
+
+                        User user = _mapper.Map<User>(userEntity);
 
                         return user;
                     }
