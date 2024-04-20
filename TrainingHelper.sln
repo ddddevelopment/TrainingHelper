@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Users.Domain", "src\Service
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{8B78D4D7-CD98-4E3F-88DF-88B61D7F6C88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersServiceTests", "src\Tests\Users\UsersServiceTests\UsersServiceTests.csproj", "{E1C9245D-117E-4E7B-BED4-320B591B4159}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsersServiceTests", "src\Tests\Users\UsersServiceTests\UsersServiceTests.csproj", "{E1C9245D-117E-4E7B-BED4-320B591B4159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingHelper.ApiGateway", "TrainingHelper.ApiGateway\TrainingHelper.ApiGateway.csproj", "{16252AE3-C636-486F-A6B3-2F349D756E20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{E1C9245D-117E-4E7B-BED4-320B591B4159}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1C9245D-117E-4E7B-BED4-320B591B4159}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1C9245D-117E-4E7B-BED4-320B591B4159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16252AE3-C636-486F-A6B3-2F349D756E20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16252AE3-C636-486F-A6B3-2F349D756E20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16252AE3-C636-486F-A6B3-2F349D756E20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16252AE3-C636-486F-A6B3-2F349D756E20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +110,7 @@ Global
 		{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A} = {45A3A88E-D034-4AEB-9CB4-7A09D16EDFEA}
 		{8B78D4D7-CD98-4E3F-88DF-88B61D7F6C88} = {13F4C8E8-DAB3-401A-9FE8-559AEAFF594E}
 		{E1C9245D-117E-4E7B-BED4-320B591B4159} = {8B78D4D7-CD98-4E3F-88DF-88B61D7F6C88}
+		{16252AE3-C636-486F-A6B3-2F349D756E20} = {E0849D37-FF45-4101-9549-200C365AFCAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF4A3161-7D04-40CF-8C09-4E74B812C275}

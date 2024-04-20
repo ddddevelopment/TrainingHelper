@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MX+2B5YNrLD8Dn+lTnloosrORCPEo1WQIkrpVU0D4aQ=",
+  "Source": "TrainingHelper.ApiGateway",
+  "BasePath": "_content/TrainingHelper.ApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
