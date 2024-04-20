@@ -1,3 +1,4 @@
+using Users.Api;
 using Users.Application.Services;
 using Users.DAL;
 using Users.DAL.Repositories;
@@ -9,6 +10,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddAutoMapper(typeof(ApiMappingProfile), typeof(DALMappingProfile));
 
 builder.Services.AddScoped<IUsersService, UsersService>();
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();

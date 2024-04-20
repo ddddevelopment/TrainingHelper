@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "vXhHD1uRuAIzg7de9oGdN2UhMyRdZ2TynT4n8vHvj5VEH6CMEtX63Z8EnUuuB8xZeXEkquYzKTHm5tlNXyGH8A==",
+  "dgSpecHash": "GLK9USHeH2OPpqURckn8SZ+l+fOyMyCE2qNEqXtI0WlbtzqDIrEgk0X8fp1fxIezmj8m1BhySu3APAhods/yKA==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Users.DAL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dgorb\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\dgorb\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512"
+    "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

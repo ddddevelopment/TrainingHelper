@@ -1,8 +1,8 @@
 ﻿namespace Users.Api.Models
 {
-    public class UserPresentation
+    public class UserRequest
     {
-        public UserPresentation(string name, string email)
+        public UserRequest(string name, string email)
         {
             Name = name;
             Email = email;

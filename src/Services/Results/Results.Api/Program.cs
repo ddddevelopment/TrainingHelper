@@ -13,9 +13,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddAutoMapper(typeof(ApiMappingProfile), typeof(DALMappingProfile));
+builder.Services.AddAutoMapper(typeof(DALMappingProfile));
 
-builder.Services.AddSingleton<IValidator<ResultPresentation>, ResultPresentationValidator>();
+builder.Services.AddSingleton<IValidator<ResultRequest>, ResultPresentationValidator>();
 
 var dbConfiguration = builder.Configuration.GetSection("DbConfiguration");
 
