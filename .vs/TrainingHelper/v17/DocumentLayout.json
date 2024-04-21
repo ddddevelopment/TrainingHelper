@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|solutionrelative:traininghelper.apigateway\\configuration.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|d:\\programming\\projects\\traininghelper\\traininghelper.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|solutionrelative:traininghelper.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|d:\\programming\\projects\\traininghelper\\traininghelper.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|solutionrelative:traininghelper.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|d:\\programming\\projects\\traininghelper\\traininghelper.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|solutionrelative:traininghelper.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|d:\\programming\\projects\\traininghelper\\traininghelper.apigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -33,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|solutionrelative:src\\services\\users\\users.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -100,26 +104,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Properties\\launchSettings.json",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T21:43:25.899Z",
+              "WhenOpened": "2024-04-21T14:38:42.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "TrainingHelper.ApiGateway\\Properties\\launchSettings.json",
               "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\Properties\\launchSettings.json",
               "RelativeToolTip": "TrainingHelper.ApiGateway\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC8AAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-20T21:18:19.478Z",
               "EditorCaption": ""
@@ -132,27 +136,14 @@
               "RelativeDocumentMoniker": "TrainingHelper.ApiGateway\\configuration.json",
               "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\configuration.json",
               "RelativeToolTip": "TrainingHelper.ApiGateway\\configuration.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-20T20:25:00.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResultsController.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
-              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCkAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:26:05.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ResultRequest.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Models\\ResultRequest.cs",
               "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Models\\ResultRequest.cs",
@@ -164,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\Program.cs",
               "RelativeDocumentMoniker": "TrainingHelper.ApiGateway\\Program.cs",
@@ -172,12 +163,11 @@
               "RelativeToolTip": "TrainingHelper.ApiGateway\\Program.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAUwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T20:20:08.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T20:20:08.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserRequest.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Models\\UserRequest.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Models\\UserRequest.cs",
@@ -189,7 +179,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwCUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T16:54:53.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-20T21:43:25.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResultsController.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
+              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T20:26:05.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "ApiMappingProfile.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\ApiMappingProfile.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\ApiMappingProfile.cs",
@@ -202,18 +230,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAADwvyUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:54:53.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Program.cs",
@@ -225,7 +241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Dockerfile",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\Dockerfile",
               "RelativeDocumentMoniker": "TrainingHelper.ApiGateway\\Dockerfile",
@@ -237,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Models\\User.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Domain\\Models\\User.cs",
@@ -249,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UserEntity.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Models\\UserEntity.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\Models\\UserEntity.cs",
@@ -261,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UsersRepository.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
@@ -273,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ResultsRepository.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
@@ -285,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Result.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
               "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
@@ -297,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Program.cs",
@@ -309,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "DALMappingProfile.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\DALMappingProfile.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\DALMappingProfile.cs",

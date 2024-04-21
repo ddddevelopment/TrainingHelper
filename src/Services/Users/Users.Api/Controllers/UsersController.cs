@@ -29,7 +29,7 @@ namespace Users.Api.Controllers
             return Ok(user);
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<ActionResult> Get(Guid id)
         {
             User user = await _service.Get(id);
