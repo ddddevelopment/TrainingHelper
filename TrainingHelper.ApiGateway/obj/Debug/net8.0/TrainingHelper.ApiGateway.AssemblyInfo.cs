@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrainingHelper.ApiGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df19c1c0ce09cf8e4f131f14b434081c2171331f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ca7684bd3d63e74055bfea5116cd8844579b6f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrainingHelper.ApiGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrainingHelper.ApiGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

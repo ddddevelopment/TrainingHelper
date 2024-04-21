@@ -39,7 +39,7 @@ namespace Results.Api.Controllers
             return Ok();
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<ActionResult<ResultRequest>> Get(Guid id)
         {
             Result result = await _service.Get(id);

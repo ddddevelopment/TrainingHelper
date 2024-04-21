@@ -1,7 +1,7 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/Results",
+      "DownstreamPathTemplate": "/api/results/{id}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
@@ -9,11 +9,11 @@
           "Port": 7184
         }
       ],
-      "UpstreamPathTemplate": "/api/results",
-      "UpstreamHttpMethod": ["Get"]
+      "UpstreamPathTemplate": "/api/results/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
     }
   ],
   "GlobasConfiguration": {
-    "BaseUrl": "https://localhost:7090"
+    "BaseUrl": "https://localhost:44322"
   }
 }
