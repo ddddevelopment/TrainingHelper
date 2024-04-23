@@ -110,7 +110,7 @@
               "RelativeDocumentMoniker": "TrainingHelper.ApiGateway\\configuration.json",
               "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\configuration.json",
               "RelativeToolTip": "TrainingHelper.ApiGateway\\configuration.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-04-20T20:25:00.163Z",
               "EditorCaption": ""
@@ -161,8 +161,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:54:53.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T16:54:53.097Z"
             },
             {
               "$type": "Document",
@@ -174,8 +173,7 @@
               "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T21:43:25.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T21:43:25.899Z"
             },
             {
               "$type": "Document",
@@ -187,8 +185,7 @@
               "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:26:05.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T20:26:05.541Z"
             },
             {
               "$type": "Document",
@@ -200,8 +197,7 @@
               "RelativeToolTip": "TrainingHelper.ApiGateway\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T21:18:19.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T21:18:19.478Z"
             },
             {
               "$type": "Document",

@@ -83,7 +83,8 @@
       "UpstreamHttpMethod": [ "Post" ]
     }
   ],
+
   "GlobasConfiguration": {
     "BaseUrl": "https://localhost:44322"
   }
-}
+}  
