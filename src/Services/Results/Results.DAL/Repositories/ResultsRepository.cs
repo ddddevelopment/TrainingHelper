@@ -28,7 +28,7 @@ namespace Results.DAL.Repositories
                 string addValuesQuery =
                     "INSERT INTO results\r\n" +
                     "VALUES\r\n" +
-                    $"('{resultEntity.Id}', '{resultEntity.Exercise}', {resultEntity.WeightKg}, {resultEntity.NumberOfRepetitions})";
+                    $"('{resultEntity.Id}', '{resultEntity.Exercise}', {resultEntity.WeightKg}, {resultEntity.NumberOfRepetitions}, '{resultEntity.UserId}')";
 
                 using (NpgsqlCommand command = new NpgsqlCommand(addValuesQuery, connection))
                 {
@@ -57,12 +57,13 @@ namespace Results.DAL.Repositories
                     {
                         while (await resultReader.ReadAsync())
                         {
-                            string resultExercise = resultReader["exercise"].ToString();
-                            string resultWeightkg = resultReader["weight_kg"].ToString();
-                            string resultNumberOfRepetitions = resultReader["number_of_Repetitions"].ToString();
+                            string exercise = resultReader["exercise"].ToString();
+                            string weightKg = resultReader["weight_kg"].ToString();
+                            string numberOfRepetitions = resultReader["number_of_Repetitions"].ToString();
+                            string userId = resultReader["user_id"].ToString();
 
                             ResultEntity resultEntity =
-                                new ResultEntity(id, resultExercise, float.Parse(resultWeightkg), int.Parse(resultNumberOfRepetitions));
+                                new ResultEntity(id, exercise, float.Parse(weightKg), int.Parse(numberOfRepetitions), Guid.Parse(userId));
 
                             Result result = _mapper.Map<Result>(resultEntity);
 

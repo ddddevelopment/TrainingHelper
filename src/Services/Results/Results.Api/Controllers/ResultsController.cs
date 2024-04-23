@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using FluentValidation;
+﻿using FluentValidation;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 using Results.Api.Models;
@@ -13,13 +12,11 @@ namespace Results.Api.Controllers
     public class ResultsController : ControllerBase
     {
         private readonly IResultsService _service;
-        private readonly IMapper _mapper;
         private readonly IValidator<ResultRequest> _validator;
 
-        public ResultsController(IResultsService service, IMapper mapper, IValidator<ResultRequest> validator)
+        public ResultsController(IResultsService service, IValidator<ResultRequest> validator)
         {
             _service = service;
-            _mapper = mapper;
             _validator = validator;
         }
 
@@ -33,7 +30,9 @@ namespace Results.Api.Controllers
                 return BadRequest(validationResult.Errors);
             }
 
-            Result result = new Result(Guid.NewGuid(), resultPresentation.Exercise, resultPresentation.WeightKg, resultPresentation.NumberOfRepetitions);
+            Result result = new Result(Guid.NewGuid(), resultPresentation.Exercise, resultPresentation.WeightKg, 
+                resultPresentation.NumberOfRepetitions, resultPresentation.UserId);
+
             await _service.Create(result);
 
             return Ok();
