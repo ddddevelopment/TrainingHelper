@@ -23,7 +23,7 @@ namespace Results.Api.Controllers
             _validator = validator;
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<ActionResult> Create(ResultRequest resultPresentation)
         {
             ValidationResult validationResult = _validator.Validate(resultPresentation);
@@ -47,7 +47,7 @@ namespace Results.Api.Controllers
             return Ok(result);
         }
 
-        [HttpDelete]
+        [HttpDelete("delete/{id}")]
         public async Task<ActionResult> Delete(Guid id)
         {
             await _service.Delete(id);

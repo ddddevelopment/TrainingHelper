@@ -19,7 +19,7 @@ namespace Users.Api.Controllers
             _mapper = mapper;
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<ActionResult> Create(UserRequest userRequest)
         {
             User user = new User(Guid.NewGuid(), userRequest.Name, userRequest.Email);
@@ -37,7 +37,7 @@ namespace Users.Api.Controllers
             return Ok(user);
         }
 
-        [HttpDelete]
+        [HttpDelete("delete/{id}")]
         public async Task<ActionResult> Delete(Guid id)
         {
             await _service.Delete(id);
