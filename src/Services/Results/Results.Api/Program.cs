@@ -6,6 +6,8 @@ using Results.DAL;
 using Results.DAL.Repositories;
 using Results.Domain.Abstractions.Repositories;
 using Results.Domain.Abstractions.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +29,18 @@ builder.Services.AddSingleton(configuration => new DbConfiguration(
 
 builder.Services.AddScoped<IResultsService, ResultsService>();
 builder.Services.AddScoped<IResultsRepository, ResultsRepository>();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
+    options => options.TokenValidationParameters = new TokenValidationParameters()
+    {
+        ValidateIssuer = false,
+        ValidIssuer = AuthOptions.ISSUER,
+        ValidateAudience = false,
+        ValidAudience = AuthOptions.AUDIENCE,
+        ValidateLifetime = false,
+        IssuerSigningKey = AuthOptions.SymmetricKey,
+        ValidateIssuerSigningKey = true
+    });
 
 var app = builder.Build();
 

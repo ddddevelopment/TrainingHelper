@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Auth.Api.Models;
+using Auth.Domain;
+using Auth.Domain.Abstractions.Services;
+using Auth.Domain.Models;
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
@@ -9,21 +14,21 @@ namespace Auth.Api.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
-        [HttpGet("/login/{userName}")]
-        public async Task<string> Login(string userName)
+        private readonly IAuthService _service;
+        private readonly IMapper _mapper;
+
+        public AuthController(IAuthService service, IMapper mapper)
         {
-            List<Claim> claims = new List<Claim> { new Claim(ClaimTypes.Name, userName) };
+            _service = service;
+            _mapper = mapper;   
+        }
 
-            JwtSecurityToken jwt = new JwtSecurityToken(
-                issuer: AuthOptions.ISSUER,
-                audience: AuthOptions.AUDIENCE,
-                claims: claims,
-                expires: DateTime.UtcNow.AddMinutes(3),
-                signingCredentials: new SigningCredentials(AuthOptions.SymmetricKey, SecurityAlgorithms.HmacSha256));
+        [HttpPost("/login")]
+        public async Task<string> Login(UserLoginRequest userLoginRequest)
+        {
+            UserLogin userLogin = _mapper.Map<UserLogin>(userLoginRequest);
 
-            JwtSecurityTokenHandler jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
-
-            return jwtSecurityTokenHandler.WriteToken(jwt);
+            return await _service.Login(userLogin);
         }
     }
 }

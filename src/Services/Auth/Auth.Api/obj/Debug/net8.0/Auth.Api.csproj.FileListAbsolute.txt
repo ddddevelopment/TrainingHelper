@@ -39,3 +39,8 @@ D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\obj\Debug\net8
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\obj\Debug\net8.0\Auth.Api.pdb
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\obj\Debug\net8.0\Auth.Api.genruntimeconfig.cache
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\obj\Debug\net8.0\ref\Auth.Api.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\AutoMapper.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Auth.Application.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Auth.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Auth.Application.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Auth.Domain.pdb

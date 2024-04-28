@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZoF/RwA96nIJnxKj6eemrgmGTyzdHf7Ms6XHga1E52YqRBxvUhgeF1w0p3xNl3lqRHNwqSmaOwELHsfgSSZSEw==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.identitymodel.logging\\7.1.2\\microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

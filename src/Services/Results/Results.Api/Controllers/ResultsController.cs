@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Results.Api.Models;
 using Results.Domain.Abstractions.Services;
@@ -21,6 +22,7 @@ namespace Results.Api.Controllers
         }
 
         [HttpPost("create")]
+        [Authorize]
         public async Task<ActionResult> Create(ResultRequest resultPresentation)
         {
             ValidationResult validationResult = _validator.Validate(resultPresentation);
