@@ -1,3 +1,4 @@
+using Auth.Api;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -15,11 +16,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     options => options.TokenValidationParameters = new TokenValidationParameters()
     {
         ValidateIssuer = false,
-        ValidIssuer = "Issuer",
+        ValidIssuer = AuthOptions.ISSUER,
         ValidateAudience = false,
-        ValidAudience = "Audience",
+        ValidAudience = AuthOptions.AUDIENCE,
         ValidateLifetime = false,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("secret secret secret secret secret")),
+        IssuerSigningKey = AuthOptions.SigningKey,
         ValidateIssuerSigningKey = true
     });
 
@@ -41,11 +42,11 @@ app.Map("/login/{username}", (string username) =>
 {
     var claims = new List<Claim>{ new Claim(ClaimTypes.Name, username) };
     var jwt = new JwtSecurityToken(
-        issuer: "Issuer",
-        audience: "Audience",
+        issuer: AuthOptions.ISSUER,
+        audience: AuthOptions.AUDIENCE,
         claims: claims,
         expires: DateTime.UtcNow.AddMinutes(3), 
-        signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes("secret secret secret secret secret")), SecurityAlgorithms.HmacSha256));
+        signingCredentials: new SigningCredentials(AuthOptions.SigningKey, SecurityAlgorithms.HmacSha256));
 
     return new JwtSecurityTokenHandler().WriteToken(jwt);
 });

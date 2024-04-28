@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA1584D9-860F-4BFA-A757-3D0910AF2417}|src\\Services\\Results\\Results.DAL\\Results.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.dal\\repositories\\resultsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,14 +117,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Dockerfile",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\Dockerfile",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Dockerfile",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Api\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-26T19:34:05.275Z",
+              "Title": "AuthOptions.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\AuthOptions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\AuthOptions.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\AuthOptions.cs",
+              "RelativeToolTip": "src\\Services\\Auth\\Auth.Api\\AuthOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T14:22:54.755Z",
               "EditorCaption": ""
             },
             {
@@ -135,7 +135,7 @@
               "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\Program.cs",
               "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Program.cs",
               "RelativeToolTip": "src\\Services\\Auth\\Auth.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAByAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAADQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T19:34:02.715Z",
               "EditorCaption": ""
@@ -150,8 +150,7 @@
               "RelativeToolTip": "src\\Services\\Results\\Results.DAL\\Entities\\ResultEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T18:28:05.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T18:28:05.82Z"
             },
             {
               "$type": "Document",
@@ -163,8 +162,7 @@
               "RelativeToolTip": "TrainingHelper.ApiGateway\\configuration.json",
               "ViewState": "AQIAAB0AAAAAAAAAAABRwDQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T20:25:00.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T20:25:00.163Z"
             },
             {
               "$type": "Document",
@@ -176,8 +174,7 @@
               "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAQwBcAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:26:05.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T20:26:05.541Z"
             },
             {
               "$type": "Document",
@@ -189,8 +186,7 @@
               "RelativeToolTip": "TrainingHelper.ApiGateway\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T21:18:19.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T21:18:19.478Z"
             },
             {
               "$type": "Document",
@@ -202,8 +198,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Domain\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:43:41.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T16:43:41.265Z"
             },
             {
               "$type": "Document",
@@ -215,8 +210,7 @@
               "RelativeToolTip": "src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:31:16.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T20:31:16.37Z"
             },
             {
               "$type": "Document",
@@ -228,8 +222,7 @@
               "RelativeToolTip": "src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAYwCwAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:02:29.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T20:02:29.154Z"
             },
             {
               "$type": "Document",
@@ -241,8 +234,7 @@
               "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Models\\ResultRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:02:12.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T20:02:12.912Z"
             },
             {
               "$type": "Document",
@@ -254,8 +246,7 @@
               "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T21:43:25.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T21:43:25.899Z"
             },
             {
               "$type": "Document",
@@ -267,8 +258,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:54:53.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T16:54:53.097Z"
             },
             {
               "$type": "Document",
@@ -280,8 +270,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Models\\UserRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:57:57.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T16:57:57.801Z"
             },
             {
               "$type": "Document",
@@ -293,8 +282,7 @@
               "RelativeToolTip": "TrainingHelper.ApiGateway\\Program.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAUwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T20:20:08.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T20:20:08.835Z"
             },
             {
               "$type": "Document",
@@ -306,8 +294,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Properties\\launchSettings.json",
               "ViewState": "AQIAACAAAAAAAAAAAABRwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-21T14:38:42.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-21T14:38:42.719Z"
             },
             {
               "$type": "Document",
@@ -319,8 +306,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\ApiMappingProfile.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAqwAoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:57:54.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T16:57:54.211Z"
             },
             {
               "$type": "Document",
@@ -332,8 +318,7 @@
               "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAIBJwA8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:05:20.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T20:05:20.449Z"
             },
             {
               "$type": "Document",
@@ -345,8 +330,7 @@
               "RelativeToolTip": "TrainingHelper.ApiGateway\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-20T20:17:49.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T20:17:49.828Z"
             },
             {
               "$type": "Document",
@@ -358,8 +342,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.DAL\\Models\\UserEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:43:09.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T16:43:09.756Z"
             },
             {
               "$type": "Document",
@@ -371,8 +354,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAIwBEAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:42:00.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T16:42:00.882Z"
             },
             {
               "$type": "Document",
@@ -384,8 +366,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:53:38.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T16:53:38.401Z"
             },
             {
               "$type": "Document",
@@ -397,8 +378,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.DAL\\DALMappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:50:48.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T16:50:48.615Z"
             }
           ]
         },
