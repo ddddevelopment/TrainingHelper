@@ -10,6 +10,6 @@ namespace Auth.Api
 
         private const string KEY = "secret secret secret secret secret";
 
-        public static SymmetricSecurityKey SigningKey => new SymmetricSecurityKey(Encoding.UTF8.GetBytes(KEY));
+        public static SymmetricSecurityKey SymmetricKey => new SymmetricSecurityKey(Encoding.UTF8.GetBytes(KEY));
     }
 }

@@ -20,7 +20,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         ValidateAudience = false,
         ValidAudience = AuthOptions.AUDIENCE,
         ValidateLifetime = false,
-        IssuerSigningKey = AuthOptions.SigningKey,
+        IssuerSigningKey = AuthOptions.SymmetricKey,
         ValidateIssuerSigningKey = true
     });
 
@@ -37,18 +37,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
-app.Map("/login/{username}", (string username) =>
-{
-    var claims = new List<Claim>{ new Claim(ClaimTypes.Name, username) };
-    var jwt = new JwtSecurityToken(
-        issuer: AuthOptions.ISSUER,
-        audience: AuthOptions.AUDIENCE,
-        claims: claims,
-        expires: DateTime.UtcNow.AddMinutes(3), 
-        signingCredentials: new SigningCredentials(AuthOptions.SigningKey, SecurityAlgorithms.HmacSha256));
-
-    return new JwtSecurityTokenHandler().WriteToken(jwt);
-});
 
 app.Run();
