@@ -1,128 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Programming\\Projects\\TrainingHelper\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{7D84E705-583A-4FCF-A67D-8EB49FF1B012}|src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D84E705-583A-4FCF-A67D-8EB49FF1B012}|src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj|solutionrelative:src\\services\\auth\\auth.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\apimappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\apimappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.domain\\abstractions\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|solutionrelative:src\\services\\auth\\auth.domain\\abstractions\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\models\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\models\\userloginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D84E705-583A-4FCF-A67D-8EB49FF1B012}|src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.application\\auth.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7D84E705-583A-4FCF-A67D-8EB49FF1B012}|src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj|solutionrelative:src\\services\\auth\\auth.application\\auth.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.domain\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|solutionrelative:src\\services\\auth\\auth.domain\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.domain\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|solutionrelative:src\\services\\auth\\auth.domain\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\authoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA1584D9-860F-4BFA-A757-3D0910AF2417}|src\\Services\\Results\\Results.DAL\\Results.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.dal\\entities\\resultentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA1584D9-860F-4BFA-A757-3D0910AF2417}|src\\Services\\Results\\Results.DAL\\Results.DAL.csproj|solutionrelative:src\\services\\results\\results.dal\\entities\\resultentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA1584D9-860F-4BFA-A757-3D0910AF2417}|src\\Services\\Results\\Results.DAL\\Results.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.dal\\repositories\\resultsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA1584D9-860F-4BFA-A757-3D0910AF2417}|src\\Services\\Results\\Results.DAL\\Results.DAL.csproj|solutionrelative:src\\services\\results\\results.dal\\repositories\\resultsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\models\\resultrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\models\\resultrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.domain\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|solutionrelative:src\\services\\results\\results.domain\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|solutionrelative:src\\services\\users\\users.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|d:\\programming\\projects\\traininghelper\\traininghelper.apigateway\\configuration.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|solutionrelative:traininghelper.apigateway\\configuration.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E315A2D9-D9A8-4A4F-9576-D66D88B2330C}|src\\Services\\Results\\Results.Api\\Results.Api.csproj|solutionrelative:src\\services\\results\\results.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|d:\\programming\\projects\\traininghelper\\traininghelper.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|solutionrelative:traininghelper.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|d:\\programming\\projects\\traininghelper\\traininghelper.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|solutionrelative:traininghelper.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|d:\\programming\\projects\\traininghelper\\traininghelper.apigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{16252AE3-C636-486F-A6B3-2F349D756E20}|TrainingHelper.ApiGateway\\TrainingHelper.ApiGateway.csproj|solutionrelative:traininghelper.apigateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|solutionrelative:src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.dal\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|solutionrelative:src\\services\\users\\users.dal\\models\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\models\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\models\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\apimappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\apimappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.dal\\dalmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|solutionrelative:src\\services\\users\\users.dal\\dalmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -139,412 +18,62 @@
           ]
         },
         {
-          "DockedHeight": 117,
-          "SelectedChildIndex": 6,
+          "DockedHeight": 17,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserLoginRequest.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Models\\UserLoginRequest.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\Models\\UserLoginRequest.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Models\\UserLoginRequest.cs",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Api\\Models\\UserLoginRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T19:40:59.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserLogin.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Models\\UserLogin.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Domain\\Models\\UserLogin.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Models\\UserLogin.cs",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Domain\\Models\\UserLogin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T19:36:22.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthOptions.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\AuthOptions.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Domain\\AuthOptions.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\AuthOptions.cs",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Domain\\AuthOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T19:27:40.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Auth.Application",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-28T19:22:45.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Abstractions\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Domain\\Abstractions\\Services\\IAuthService.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Abstractions\\Services\\IAuthService.cs",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Domain\\Abstractions\\Services\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T19:23:24.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T19:09:47.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\Program.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Program.cs",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T19:34:02.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T14:42:09.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiMappingProfile.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\ApiMappingProfile.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\ApiMappingProfile.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\ApiMappingProfile.cs",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Api\\ApiMappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T19:45:55.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthOptions.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\AuthOptions.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\AuthOptions.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\AuthOptions.cs",
-              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\AuthOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T18:31:09.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "TrainingHelper.ApiGateway\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\Properties\\launchSettings.json",
-              "RelativeToolTip": "TrainingHelper.ApiGateway\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T21:18:19.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ResultsController.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
-              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Controllers\\ResultsController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAwBgAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:26:05.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Models\\User.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Domain\\Models\\User.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Models\\User.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Domain\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:43:41.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Program.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Program.cs",
-              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Program.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAcwCgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:05:20.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "configuration.json",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\configuration.json",
-              "RelativeDocumentMoniker": "TrainingHelper.ApiGateway\\configuration.json",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\configuration.json",
-              "RelativeToolTip": "TrainingHelper.ApiGateway\\configuration.json",
-              "ViewState": "AQIAABkAAAAAAAAAAABhwDQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T20:25:00.163Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ResultEntity.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Entities\\ResultEntity.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.DAL\\Entities\\ResultEntity.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Entities\\ResultEntity.cs",
-              "RelativeToolTip": "src\\Services\\Results\\Results.DAL\\Entities\\ResultEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T18:28:05.82Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Result.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
-              "RelativeToolTip": "src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:31:16.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ResultsRepository.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
-              "RelativeToolTip": "src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwCwAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:02:29.154Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ResultRequest.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Models\\ResultRequest.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Models\\ResultRequest.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Models\\ResultRequest.cs",
-              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Models\\ResultRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T20:02:12.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\Services\\Results\\Results.Api\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-20T21:43:25.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:54:53.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UserRequest.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Models\\UserRequest.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Models\\UserRequest.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Models\\UserRequest.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Models\\UserRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:57:57.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\Program.cs",
-              "RelativeDocumentMoniker": "TrainingHelper.ApiGateway\\Program.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\Program.cs",
-              "RelativeToolTip": "TrainingHelper.ApiGateway\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAUwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T20:20:08.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Properties\\launchSettings.json",
-              "ViewState": "AQIAABwAAAAAAAAAAABhwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-21T14:38:42.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ApiMappingProfile.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\ApiMappingProfile.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\ApiMappingProfile.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\ApiMappingProfile.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\ApiMappingProfile.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAqwAoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:57:54.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\Dockerfile",
-              "RelativeDocumentMoniker": "TrainingHelper.ApiGateway\\Dockerfile",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\TrainingHelper.ApiGateway\\Dockerfile",
-              "RelativeToolTip": "TrainingHelper.ApiGateway\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-20T20:17:49.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Models\\UserEntity.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\Models\\UserEntity.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Models\\UserEntity.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.DAL\\Models\\UserEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:43:09.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:42:00.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Program.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Program.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:53:38.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "DALMappingProfile.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\DALMappingProfile.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\DALMappingProfile.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\DALMappingProfile.cs",
-              "RelativeToolTip": "src\\Services\\Users\\Users.DAL\\DALMappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T16:50:48.615Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },
         {
-          "DockedHeight": 40,
+          "DockedHeight": 8,
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         }
