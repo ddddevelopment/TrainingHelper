@@ -42,6 +42,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{FCC13726-11C4-49C5-871B-9ED132867B0B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Api", "src\Services\Auth\Auth.Api\Auth.Api.csproj", "{4ED96D90-AD11-47ED-98AF-2FACC195780D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C704EA8B-E052-4F3C-9954-95F2DD345AEE} = {C704EA8B-E052-4F3C-9954-95F2DD345AEE}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Application", "src\Services\Auth\Auth.Application\Auth.Application.csproj", "{7D84E705-583A-4FCF-A67D-8EB49FF1B012}"
 EndProject
@@ -49,7 +52,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Domain", "src\Services
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C25F5447-9790-45A7-AFC4-18D6F7B3110E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker.RabbitMq", "src\Services\Auth\Infrastructure\MessageBroker.RabbitMq\MessageBroker.RabbitMq.csproj", "{C704EA8B-E052-4F3C-9954-95F2DD345AEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBroker.RabbitMq", "src\Services\Auth\Infrastructure\MessageBroker.RabbitMq\MessageBroker.RabbitMq.csproj", "{C704EA8B-E052-4F3C-9954-95F2DD345AEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

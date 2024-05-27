@@ -3,6 +3,7 @@ using Auth.Domain;
 using Auth.Domain.Abstractions.Services;
 using Auth.Domain.Models;
 using AutoMapper;
+using MessageBroker.RabbitMq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -27,6 +28,10 @@ namespace Auth.Api.Controllers
         public async Task<string> Login(UserLoginRequest userLoginRequest)
         {
             UserLogin userLogin = _mapper.Map<UserLogin>(userLoginRequest);
+
+            Publisher publisher = new Publisher();
+
+            await publisher.Publish("users", $"{userLogin.Email}, {userLogin.Password}");
 
             return await _service.Login(userLogin);
         }
