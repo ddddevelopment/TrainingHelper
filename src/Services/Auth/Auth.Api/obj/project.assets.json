@@ -1216,6 +1216,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj": {
+              "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj"
+            },
             "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj": {
               "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj"
             },

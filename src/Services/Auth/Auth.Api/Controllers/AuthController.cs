@@ -15,6 +15,8 @@ namespace Auth.Api.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
+        private const string EXCHANGE_NAME = "training";
+
         private readonly IAuthService _service;
         private readonly IMapper _mapper;
 
@@ -29,7 +31,7 @@ namespace Auth.Api.Controllers
         {
             UserLogin userLogin = _mapper.Map<UserLogin>(userLoginRequest);
 
-            Publisher publisher = new Publisher();
+            Publisher publisher = new Publisher(EXCHANGE_NAME);
 
             await publisher.Publish("users", $"{userLogin.Email}, {userLogin.Password}");
 

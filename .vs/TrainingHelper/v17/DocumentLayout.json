@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\Programming\\Projects\\TrainingHelper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C704EA8B-E052-4F3C-9954-95F2DD345AEE}|src\\Services\\Auth\\Infrastructure\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\infrastructure\\messagebroker.rabbitmq\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C704EA8B-E052-4F3C-9954-95F2DD345AEE}|src\\Services\\Auth\\Infrastructure\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|solutionrelative:src\\services\\auth\\infrastructure\\messagebroker.rabbitmq\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1858811-BEFB-4D54-8DF6-C9B985EC600C}|src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|d:\\programming\\projects\\traininghelper\\src\\extentions\\messagebroker.rabbitmq\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1858811-BEFB-4D54-8DF6-C9B985EC600C}|src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|solutionrelative:src\\extentions\\messagebroker.rabbitmq\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D84E705-583A-4FCF-A67D-8EB49FF1B012}|src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D84E705-583A-4FCF-A67D-8EB49FF1B012}|src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj|solutionrelative:src\\services\\auth\\auth.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 309,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,35 +32,22 @@
               "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
               "RelativeToolTip": "src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T17:59:40.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
-              "RelativeToolTip": "src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T17:57:34.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Publisher.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\MessageBroker.RabbitMq\\Publisher.cs",
-              "RelativeDocumentMoniker": "src\\Services\\Auth\\Infrastructure\\MessageBroker.RabbitMq\\Publisher.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\MessageBroker.RabbitMq\\Publisher.cs",
-              "RelativeToolTip": "src\\Services\\Auth\\Infrastructure\\MessageBroker.RabbitMq\\Publisher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\Publisher.cs",
+              "RelativeDocumentMoniker": "src\\Extentions\\MessageBroker.RabbitMq\\Publisher.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\Publisher.cs",
+              "RelativeToolTip": "src\\Extentions\\MessageBroker.RabbitMq\\Publisher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T13:08:06.947Z",
+              "WhenOpened": "2024-05-27T18:24:14.677Z",
               "EditorCaption": ""
             }
           ]
@@ -150,10 +133,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

@@ -2,6 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\Extentions",
+    "\\src\\Extentions\\MessageBroker.RabbitMq",
     "\\src\\Services"
   ],
   "SelectedNode": "\\TrainingHelper.sln",
