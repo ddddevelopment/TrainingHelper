@@ -43,9 +43,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{FCC13726-1
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Api", "src\Services\Auth\Auth.Api\Auth.Api.csproj", "{4ED96D90-AD11-47ED-98AF-2FACC195780D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Application", "src\Services\Auth\Auth.Application\Auth.Application.csproj", "{7D84E705-583A-4FCF-A67D-8EB49FF1B012}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Application", "src\Services\Auth\Auth.Application\Auth.Application.csproj", "{7D84E705-583A-4FCF-A67D-8EB49FF1B012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Domain", "src\Services\Auth\Auth.Domain\Auth.Domain.csproj", "{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth.Domain", "src\Services\Auth\Auth.Domain\Auth.Domain.csproj", "{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C25F5447-9790-45A7-AFC4-18D6F7B3110E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBroker.RabbitMq", "src\Services\Auth\Infrastructure\MessageBroker.RabbitMq\MessageBroker.RabbitMq.csproj", "{C704EA8B-E052-4F3C-9954-95F2DD345AEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +113,10 @@ Global
 		{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C704EA8B-E052-4F3C-9954-95F2DD345AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C704EA8B-E052-4F3C-9954-95F2DD345AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C704EA8B-E052-4F3C-9954-95F2DD345AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C704EA8B-E052-4F3C-9954-95F2DD345AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -135,6 +143,8 @@ Global
 		{4ED96D90-AD11-47ED-98AF-2FACC195780D} = {FCC13726-11C4-49C5-871B-9ED132867B0B}
 		{7D84E705-583A-4FCF-A67D-8EB49FF1B012} = {FCC13726-11C4-49C5-871B-9ED132867B0B}
 		{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA} = {FCC13726-11C4-49C5-871B-9ED132867B0B}
+		{C25F5447-9790-45A7-AFC4-18D6F7B3110E} = {FCC13726-11C4-49C5-871B-9ED132867B0B}
+		{C704EA8B-E052-4F3C-9954-95F2DD345AEE} = {C25F5447-9790-45A7-AFC4-18D6F7B3110E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF4A3161-7D04-40CF-8C09-4E74B812C275}
