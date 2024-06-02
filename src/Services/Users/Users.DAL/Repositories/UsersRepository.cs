@@ -70,6 +70,38 @@ namespace Users.DAL.Repositories
             }
         }
 
+        public async Task<User> Get(string email)
+        {
+            NpgsqlConnectionStringBuilder builder = CreateConnectionStringBuilderWithProperties();
+
+            using (NpgsqlConnection connection = new NpgsqlConnection(builder.ConnectionString))
+            {
+                string getQuery =
+                    "SELECT *\r\n" +
+                    "FROM users\r\n" +
+                    $"WHERE email = '{email}'";
+                using (NpgsqlCommand command = new NpgsqlCommand(getQuery, connection))
+                {
+                    connection.Open();
+                    NpgsqlDataReader reader = command.ExecuteReader();
+
+                    while (await reader.ReadAsync())
+                    {
+                        string userName = reader["user_name"].ToString();
+                        Guid id = Guid.Parse(reader["user_id"].ToString());
+
+                        UserEntity userEntity = new UserEntity(id, userName, email);
+
+                        User user = _mapper.Map<User>(userEntity);
+
+                        return user;
+                    }
+
+                    throw new Exception($"User with email = {email} not found");
+                }
+            }
+        }
+
         public async Task Remove(Guid id)
         {
             NpgsqlConnectionStringBuilder builder = CreateConnectionStringBuilderWithProperties();    

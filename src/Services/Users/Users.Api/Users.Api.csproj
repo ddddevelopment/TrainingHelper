@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Extentions\MessageBroker.RabbitMq\MessageBroker.RabbitMq.csproj" />
     <ProjectReference Include="..\Users.Application\Users.Application.csproj" />
     <ProjectReference Include="..\Users.DAL\Users.DAL.csproj" />
     <ProjectReference Include="..\Users.Domain\Users.Domain.csproj" />

@@ -50,6 +50,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extentions", "Extentions", "{4F6FE2DB-0792-49C4-8BD4-35C70FB00702}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBroker.RabbitMq", "src\Extentions\MessageBroker.RabbitMq\MessageBroker.RabbitMq.csproj", "{C1858811-BEFB-4D54-8DF6-C9B985EC600C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{776E5C72-4E1D-4753-8273-AE3ACBF59F2F} = {776E5C72-4E1D-4753-8273-AE3ACBF59F2F}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

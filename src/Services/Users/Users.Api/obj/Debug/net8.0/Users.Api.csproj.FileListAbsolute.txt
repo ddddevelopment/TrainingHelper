@@ -16,7 +16,6 @@ D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\obj\Debug\ne
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\obj\Debug\net8.0\Users.Api.AssemblyInfoInputs.cache
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\obj\Debug\net8.0\Users.Api.AssemblyInfo.cs
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\obj\Debug\net8.0\Users.Api.csproj.CoreCompileInputs.cache
-D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\obj\Debug\net8.0\Users.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\obj\Debug\net8.0\Users.Api.MvcApplicationPartsAssemblyInfo.cache
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\obj\Debug\net8.0\Users.Api.sourcelink.json
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\obj\Debug\net8.0\staticwebassets.build.json
@@ -39,3 +38,6 @@ D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\ne
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Users.DAL.pdb
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Npgsql.dll
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\AutoMapper.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\MessageBroker.RabbitMq.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\MessageBroker.RabbitMq.pdb
