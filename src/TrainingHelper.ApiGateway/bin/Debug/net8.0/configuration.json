@@ -1,0 +1,90 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/results/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7184
+        }
+      ],
+      "UpstreamPathTemplate": "/api/results/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/users/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44386
+        }
+      ],
+      "UpstreamPathTemplate": "/api/users/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/users/delete/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44386
+        }
+      ],
+      "UpstreamPathTemplate": "/api/users/delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/results/delete/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7184
+        }
+      ],
+      "UpstreamPathTemplate": "/api/results/delete/{id}",
+      "UpstreamHttpMethod": [ "Delete" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/results/create",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7184
+        }
+      ],
+      "UpstreamPathTemplate": "/api/results/create",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/users/create",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44386
+        }
+      ],
+      "UpstreamPathTemplate": "/api/users/create",
+      "UpstreamHttpMethod": [ "Post" ]
+    }
+  ],
+
+  "GlobasConfiguration": {
+    "BaseUrl": "https://localhost:44322"
+  }
+}  

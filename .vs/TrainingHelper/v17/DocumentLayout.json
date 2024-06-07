@@ -7,56 +7,56 @@
       "RelativeMoniker": "D:0:0:{C1858811-BEFB-4D54-8DF6-C9B985EC600C}|src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|solutionrelative:src\\extentions\\messagebroker.rabbitmq\\rpcserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1858811-BEFB-4D54-8DF6-C9B985EC600C}|src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|d:\\programming\\projects\\traininghelper\\src\\extentions\\messagebroker.rabbitmq\\rpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1858811-BEFB-4D54-8DF6-C9B985EC600C}|src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|solutionrelative:src\\extentions\\messagebroker.rabbitmq\\rpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.domain\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|solutionrelative:src\\services\\results\\results.domain\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|solutionrelative:src\\services\\users\\users.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|solutionrelative:src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4B24814-60B1-44B6-AB6C-BDBA815F555C}|src\\Services\\Users\\Users.Application\\Users.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4B24814-60B1-44B6-AB6C-BDBA815F555C}|src\\Services\\Users\\Users.Application\\Users.Application.csproj|solutionrelative:src\\services\\users\\users.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C1858811-BEFB-4D54-8DF6-C9B985EC600C}|src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|d:\\programming\\projects\\traininghelper\\src\\extentions\\messagebroker.rabbitmq\\rpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1858811-BEFB-4D54-8DF6-C9B985EC600C}|src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|solutionrelative:src\\extentions\\messagebroker.rabbitmq\\rpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D84E705-583A-4FCF-A67D-8EB49FF1B012}|src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D84E705-583A-4FCF-A67D-8EB49FF1B012}|src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj|solutionrelative:src\\services\\auth\\auth.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{776E5C72-4E1D-4753-8273-AE3ACBF59F2F}|src\\Services\\Users\\Users.DAL\\Users.DAL.csproj|solutionrelative:src\\services\\users\\users.dal\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.domain\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|solutionrelative:src\\services\\auth\\auth.domain\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B24814-60B1-44B6-AB6C-BDBA815F555C}|src\\Services\\Users\\Users.Application\\Users.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B24814-60B1-44B6-AB6C-BDBA815F555C}|src\\Services\\Users\\Users.Application\\Users.Application.csproj|solutionrelative:src\\services\\users\\users.application\\services\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA1584D9-860F-4BFA-A757-3D0910AF2417}|src\\Services\\Results\\Results.DAL\\Results.DAL.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.dal\\repositories\\resultsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA1584D9-860F-4BFA-A757-3D0910AF2417}|src\\Services\\Results\\Results.DAL\\Results.DAL.csproj|solutionrelative:src\\services\\results\\results.dal\\repositories\\resultsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.domain\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76F09CD7-4795-4AEC-807A-E333D8EBD8DC}|src\\Services\\Results\\Results.Domain\\Results.Domain.csproj|solutionrelative:src\\services\\results\\results.domain\\models\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.domain\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|solutionrelative:src\\services\\auth\\auth.domain\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7CD9B34E-7263-4798-AF98-D69124AD3C87}|src\\Services\\Results\\Results.Application\\Results.Application.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\results\\results.application\\services\\resultsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "Result.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
               "RelativeDocumentMoniker": "src\\Services\\Results\\Results.Domain\\Models\\Result.cs",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Models\\User.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Domain\\Models\\User.cs",
@@ -110,8 +110,7 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Domain\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T10:54:16.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T10:54:16.055Z"
             },
             {
               "$type": "Document",
@@ -121,14 +120,14 @@
               "RelativeDocumentMoniker": "src\\Extentions\\MessageBroker.RabbitMq\\RpcServer.cs",
               "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\RpcServer.cs",
               "RelativeToolTip": "src\\Extentions\\MessageBroker.RabbitMq\\RpcServer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADAAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T17:20:23.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RpcClient.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\RpcClient.cs",
               "RelativeDocumentMoniker": "src\\Extentions\\MessageBroker.RabbitMq\\RpcClient.cs",
@@ -136,12 +135,11 @@
               "RelativeToolTip": "src\\Extentions\\MessageBroker.RabbitMq\\RpcClient.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T18:08:27.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T18:08:27.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
@@ -149,12 +147,11 @@
               "RelativeToolTip": "src\\Services\\Auth\\Auth.Application\\Services\\AuthService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T19:04:07.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T19:04:07.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "UsersRepository.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
@@ -162,12 +159,11 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.DAL\\Repositories\\UsersRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAIcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T17:23:27.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T17:23:27.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
@@ -175,12 +171,11 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Controllers\\UsersController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAC0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T11:25:10.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T11:25:10.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Program.cs",
@@ -188,12 +183,11 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Program.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAEwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T11:18:21.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T11:18:21.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
@@ -201,12 +195,11 @@
               "RelativeToolTip": "src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAIwCoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T10:50:09.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-02T10:50:09.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UsersService.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
@@ -214,12 +207,11 @@
               "RelativeToolTip": "src\\Services\\Users\\Users.Application\\Services\\UsersService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T18:48:59.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T18:48:59.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "ResultsRepository.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
               "RelativeDocumentMoniker": "src\\Services\\Results\\Results.DAL\\Repositories\\ResultsRepository.cs",
@@ -231,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\appsettings.Development.json",
@@ -243,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserLogin.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Models\\UserLogin.cs",
               "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Domain\\Models\\UserLogin.cs",
@@ -255,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\appsettings.json",
               "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\appsettings.json",
