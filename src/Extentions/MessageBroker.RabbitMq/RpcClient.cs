@@ -5,13 +5,13 @@ using System.Text;
 
 namespace MessageBroker.RabbitMq
 {
-    public class RpcClient : IDisposable
+    public class RpcClient
     {
         private const string QUEUE_NAME = "rpc_queue";
+        private const string REPLY_QUEUE_NAME = "reply_queue";
 
         private readonly IConnection _connection;
         private readonly IModel _channel;
-        private readonly string _replyQueueName;
         private readonly ConcurrentDictionary<string, TaskCompletionSource<bool>> _callbackMapper = new();
 
         public RpcClient()
@@ -20,7 +20,7 @@ namespace MessageBroker.RabbitMq
             
             _connection = factory.CreateConnection();
             _channel = _connection.CreateModel();
-            _replyQueueName = _channel.QueueDeclare().QueueName;
+            _channel.QueueDeclare(REPLY_QUEUE_NAME, false, false, false, null);
 
             EventingBasicConsumer consumer = new EventingBasicConsumer(_channel);
 
@@ -37,16 +37,16 @@ namespace MessageBroker.RabbitMq
                 tcs.TrySetResult(response);
             };
 
-            _channel.BasicConsume(_replyQueueName, true, consumer);
+            _channel.BasicConsume(REPLY_QUEUE_NAME, true, consumer);
         }
 
-        public async Task<bool> CallAsync(string message, CancellationToken cancellationToken)
+        public async Task<bool> CallAsync(string message, CancellationToken cancellationToken = default)
         {
             IBasicProperties properties = _channel.CreateBasicProperties();
             string correlationId = Guid.NewGuid().ToString();
 
             properties.CorrelationId = correlationId;
-            properties.ReplyTo = _replyQueueName;
+            properties.ReplyTo = REPLY_QUEUE_NAME;
 
             byte[] messageBytes = Encoding.UTF8.GetBytes(message);
 
@@ -56,11 +56,11 @@ namespace MessageBroker.RabbitMq
             _channel.BasicPublish(string.Empty, QUEUE_NAME, properties, messageBytes);
 
             cancellationToken.Register(() => _callbackMapper.TryRemove(correlationId, out _));
-            _connection.Close();
+
             return await tcs.Task;
         }
 
-        public void Dispose()
+        public async Task Close()
         {
             _connection.Close();
         }

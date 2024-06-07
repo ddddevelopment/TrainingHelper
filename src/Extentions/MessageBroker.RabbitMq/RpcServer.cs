@@ -27,9 +27,7 @@ namespace MessageBroker.RabbitMq
 
             EventingBasicConsumer consumer = new EventingBasicConsumer(channel);
 
-            channel.BasicConsume(_queueName, false, consumer);
-
-            Console.WriteLine("Awaiting requests");
+            channel.BasicConsume(_queueName, true, consumer);
 
             consumer.Received += async (model, eventArgs) =>
             {
@@ -48,7 +46,6 @@ namespace MessageBroker.RabbitMq
                 }
                 catch (Exception exception)
                 {
-                    Console.WriteLine(exception.Message);
                     response = false.ToString();
                 }
                 finally

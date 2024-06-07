@@ -27,10 +27,9 @@ namespace Auth.Api.Controllers
 
             bool isUserExists = default;
 
-            using (RpcClient rpcClient = new RpcClient())
-            {
-                isUserExists = await rpcClient.CallAsync(userLogin.Email, new CancellationToken());
-            }
+            RpcClient rpcClient = new RpcClient();
+
+            isUserExists = await rpcClient.CallAsync(userLogin.Email);
 
             if (isUserExists)
             {

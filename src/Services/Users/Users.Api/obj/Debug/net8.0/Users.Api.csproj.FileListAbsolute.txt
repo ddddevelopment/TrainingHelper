@@ -41,3 +41,4 @@ D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\ne
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\MessageBroker.RabbitMq.dll
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\MessageBroker.RabbitMq.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\obj\Debug\net8.0\Users.Api.MvcApplicationPartsAssemblyInfo.cs
