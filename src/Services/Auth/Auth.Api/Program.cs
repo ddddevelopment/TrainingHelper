@@ -22,11 +22,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(
     options => options.TokenValidationParameters = new TokenValidationParameters()
     {
-        ValidateIssuer = false,
+        ValidateIssuer = true,
         ValidIssuer = AuthOptions.ISSUER,
-        ValidateAudience = false,
+        ValidateAudience = true,
         ValidAudience = AuthOptions.AUDIENCE,
-        ValidateLifetime = false,
+        ValidateLifetime = true,
         IssuerSigningKey = AuthOptions.SymmetricKey,
         ValidateIssuerSigningKey = true
     });

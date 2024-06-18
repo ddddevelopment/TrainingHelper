@@ -1,4 +1,5 @@
 ﻿using Auth.Api.Models;
+using Auth.Domain;
 using Auth.Domain.Abstractions.Services;
 using Auth.Domain.Models;
 using AutoMapper;
