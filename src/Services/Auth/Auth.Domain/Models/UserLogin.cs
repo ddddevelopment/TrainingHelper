@@ -2,13 +2,13 @@
 {
     public class UserLogin
     {
-        public UserLogin(string email, string password)
+        public UserLogin(string email, string passwordHash)
         {
             Email = email;
-            Password = password;
+            PasswordHash = passwordHash;
         }
 
         public string Email { get; }
-        public string Password { get; }
+        public string PasswordHash { get; }
     }
 }

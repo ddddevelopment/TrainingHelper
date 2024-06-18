@@ -52,3 +52,4 @@ D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Users.DAL.dll
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Users.DAL.pdb
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\obj\Debug\net8.0\Auth.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll

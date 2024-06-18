@@ -16,3 +16,5 @@ D:\Programming\Projects\TrainingHelper\src\Extentions\MessageBroker.RabbitMq\obj
 D:\Programming\Projects\TrainingHelper\src\Extentions\MessageBroker.RabbitMq\obj\Debug\net8.0\refint\MessageBroker.RabbitMq.dll
 D:\Programming\Projects\TrainingHelper\src\Extentions\MessageBroker.RabbitMq\obj\Debug\net8.0\MessageBroker.RabbitMq.pdb
 D:\Programming\Projects\TrainingHelper\src\Extentions\MessageBroker.RabbitMq\obj\Debug\net8.0\ref\MessageBroker.RabbitMq.dll
+D:\Programming\Projects\TrainingHelper\src\Extentions\MessageBroker.RabbitMq\bin\Debug\net8.0\Auth.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Extentions\MessageBroker.RabbitMq\bin\Debug\net8.0\Auth.Domain.pdb

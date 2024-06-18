@@ -28,7 +28,7 @@ namespace Users.DAL.Repositories
                 string addQuery =
                     $"INSERT INTO users\r\n" +
                     "VALUES\r\n" +
-                    $"('{userEntity.Id}', '{userEntity.Name}', '{userEntity.Email}')";
+                    $"('{userEntity.Id}', '{userEntity.Name}', '{userEntity.Email}', '{userEntity.PasswordHash}')";
 
                 using (NpgsqlCommand command = new NpgsqlCommand(addQuery, connection))
                 {
@@ -57,8 +57,9 @@ namespace Users.DAL.Repositories
                     {
                         string userName = reader["user_name"].ToString();
                         string email = reader["email"].ToString();
+                        string passwordHash = reader["password_hash"].ToString();
 
-                        UserEntity userEntity = new UserEntity(id, userName, email);
+                        UserEntity userEntity = new UserEntity(id, userName, email, passwordHash);
 
                         User user = _mapper.Map<User>(userEntity);
 
@@ -89,8 +90,9 @@ namespace Users.DAL.Repositories
                     {
                         string userName = reader["user_name"].ToString();
                         Guid id = Guid.Parse(reader["user_id"].ToString());
+                        string passwordHash = reader["password_hash"].ToString();
 
-                        UserEntity userEntity = new UserEntity(id, userName, email);
+                        UserEntity userEntity = new UserEntity(id, userName, email, passwordHash);
 
                         User user = _mapper.Map<User>(userEntity);
 

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Users.Api.Models;
 using Users.Domain.Abstractions.Services;
 using Users.Domain.Models;
+using BCrypt.Net;
 
 namespace Users.Api.Controllers
 {
@@ -22,7 +23,7 @@ namespace Users.Api.Controllers
         [HttpPost("create")]
         public async Task<ActionResult> Create(UserRequest userRequest)
         {
-            User user = new User(Guid.NewGuid(), userRequest.Name, userRequest.Email);
+            User user = new User(Guid.NewGuid(), userRequest.Name, userRequest.Email, BCrypt.Net.BCrypt.HashPassword(userRequest.Password));
 
             await _service.Create(user);
 

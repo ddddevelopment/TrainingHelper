@@ -28,6 +28,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj"
+              },
               "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Users.DAL.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Users.DAL.csproj"
               }
@@ -128,6 +131,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",

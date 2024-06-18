@@ -1,7 +1,9 @@
-﻿using RabbitMQ.Client;
+﻿using Auth.Domain.Models;
+using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Collections.Concurrent;
 using System.Text;
+using System.Text.Json;
 
 namespace MessageBroker.RabbitMq
 {
@@ -12,7 +14,7 @@ namespace MessageBroker.RabbitMq
 
         private readonly IConnection _connection;
         private readonly IModel _channel;
-        private readonly ConcurrentDictionary<string, TaskCompletionSource<bool>> _callbackMapper = new();
+        private readonly ConcurrentDictionary<string, TaskCompletionSource<UserLogin>> _callbackMapper = new();
 
         public RpcClient()
         {
@@ -32,7 +34,7 @@ namespace MessageBroker.RabbitMq
                 }
 
                 byte[] body = eventArgs.Body.ToArray();
-                bool response = Encoding.UTF8.GetString(body) == "True" ? true : false;
+                UserLogin response = (UserLogin)JsonSerializer.Deserialize(Encoding.UTF8.GetString(body), typeof(UserLogin));
 
                 tcs.TrySetResult(response);
             };
@@ -40,7 +42,7 @@ namespace MessageBroker.RabbitMq
             _channel.BasicConsume(REPLY_QUEUE_NAME, true, consumer);
         }
 
-        public async Task<bool> CallAsync(string message, CancellationToken cancellationToken = default)
+        public async Task<UserLogin> CallAsync(string message, CancellationToken cancellationToken = default)
         {
             IBasicProperties properties = _channel.CreateBasicProperties();
             string correlationId = Guid.NewGuid().ToString();
@@ -50,7 +52,7 @@ namespace MessageBroker.RabbitMq
 
             byte[] messageBytes = Encoding.UTF8.GetBytes(message);
 
-            TaskCompletionSource<bool> tcs = new TaskCompletionSource<bool>();
+            TaskCompletionSource<UserLogin> tcs = new TaskCompletionSource<UserLogin>();
             _callbackMapper.TryAdd(correlationId, tcs);
 
             _channel.BasicPublish(string.Empty, QUEUE_NAME, properties, messageBytes);

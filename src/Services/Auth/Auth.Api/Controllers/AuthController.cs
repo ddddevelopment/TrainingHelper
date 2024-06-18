@@ -3,6 +3,7 @@ using Auth.Domain;
 using Auth.Domain.Abstractions.Services;
 using Auth.Domain.Models;
 using AutoMapper;
+using BCrypt.Net;
 using MessageBroker.RabbitMq;
 using Microsoft.AspNetCore.Mvc;
 
@@ -24,17 +25,29 @@ namespace Auth.Api.Controllers
         [HttpPost("/login")]
         public async Task<ActionResult<string>> Login(UserLoginRequest userLoginRequest)
         {
-            UserLogin userLogin = _mapper.Map<UserLogin>(userLoginRequest);
+            UserLogin userLogin = new UserLogin(userLoginRequest.Email, BCrypt.Net.BCrypt.HashPassword(userLoginRequest.Password));
 
             bool isUserExists = default;
 
             RpcClient rpcClient = new RpcClient();
 
-            isUserExists = await rpcClient.CallAsync(userLogin.Email);
+            UserLogin receivedUserLogin = await rpcClient.CallAsync(userLogin.Email);
+
+            isUserExists = receivedUserLogin != null;
 
             if (isUserExists)
             {
-                return Ok(await _service.Login(userLogin));
+                bool isPasswordCorrect = BCrypt.Net.BCrypt.Verify(userLoginRequest.Password, receivedUserLogin.PasswordHash);
+
+                if (isPasswordCorrect)
+                {
+                    return Ok(await _service.Login(userLogin));
+                }    
+
+                else
+                {
+                    return BadRequest("Password is not correct");
+                }
             }
 
             else

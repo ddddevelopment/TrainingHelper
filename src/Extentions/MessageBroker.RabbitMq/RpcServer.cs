@@ -1,6 +1,8 @@
-﻿using RabbitMQ.Client;
+﻿using Auth.Domain.Models;
+using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
+using System.Text.Json;
 using Users.Domain.Abstractions.Repositories;
 using Users.Domain.Models;
 
@@ -42,7 +44,8 @@ namespace MessageBroker.RabbitMq
                 {
                     string message = Encoding.UTF8.GetString(body);
                     User user = await _usersRepository.Get(message);
-                    response = (user != null).ToString();
+                    UserLogin userLogin = new UserLogin(user.Email, user.PasswordHash);  
+                    response = JsonSerializer.Serialize(userLogin);
                 }
                 catch (Exception exception)
                 {

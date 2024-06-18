@@ -42,3 +42,9 @@ D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\ne
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\MessageBroker.RabbitMq.dll
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\MessageBroker.RabbitMq.pdb
 D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\obj\Debug\net8.0\Users.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Auth.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\Auth.Domain.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Users.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
