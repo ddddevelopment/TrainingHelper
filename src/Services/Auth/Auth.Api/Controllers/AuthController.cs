@@ -37,7 +37,7 @@ namespace Auth.Api.Controllers
 
             if (isUserExists)
             {
-                bool isPasswordCorrect = BCrypt.Net.BCrypt.Verify(userLoginRequest.Password, receivedUserLogin.PasswordHash);
+                bool isPasswordCorrect = BCrypt.Net.BCrypt.Verify(userLoginRequest.Password, receivedUserLogin.PasswordHash);   
 
                 if (isPasswordCorrect)
                 {

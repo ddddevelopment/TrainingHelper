@@ -49,7 +49,8 @@ namespace MessageBroker.RabbitMq
                 }
                 catch (Exception exception)
                 {
-                    response = false.ToString();
+                    UserLogin userLogin = null;
+                    response = JsonSerializer.Serialize(userLogin);
                 }
                 finally
                 {

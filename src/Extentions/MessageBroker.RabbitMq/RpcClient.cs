@@ -2,6 +2,7 @@
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Collections.Concurrent;
+using System.Reflection;
 using System.Text;
 using System.Text.Json;
 
@@ -34,7 +35,8 @@ namespace MessageBroker.RabbitMq
                 }
 
                 byte[] body = eventArgs.Body.ToArray();
-                UserLogin response = (UserLogin)JsonSerializer.Deserialize(Encoding.UTF8.GetString(body), typeof(UserLogin));
+                var message = Encoding.UTF8.GetString(body);
+                UserLogin response = (UserLogin)JsonSerializer.Deserialize(message, typeof(UserLogin));
 
                 tcs.TrySetResult(response);
             };
