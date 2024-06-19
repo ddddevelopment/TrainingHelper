@@ -39,6 +39,9 @@ namespace MessageBroker.RabbitMq
                 UserLogin response = (UserLogin)JsonSerializer.Deserialize(message, typeof(UserLogin));
 
                 tcs.TrySetResult(response);
+
+                _channel.Close();
+                _connection.Close();
             };
 
             _channel.BasicConsume(REPLY_QUEUE_NAME, true, consumer);

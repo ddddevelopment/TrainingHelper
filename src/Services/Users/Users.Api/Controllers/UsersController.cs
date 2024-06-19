@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Users.Api.Models;
 using Users.Domain.Abstractions.Services;
 using Users.Domain.Models;
-using BCrypt.Net;
 
 namespace Users.Api.Controllers
 {
