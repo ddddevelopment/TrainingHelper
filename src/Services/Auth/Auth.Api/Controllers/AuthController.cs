@@ -1,10 +1,8 @@
 ﻿using Auth.Api.Models;
-using Auth.Domain;
 using Auth.Domain.Abstractions.Services;
 using Auth.Domain.Models;
+using Auth.MessageBroker.RabbitMQ;
 using AutoMapper;
-using BCrypt.Net;
-using MessageBroker.RabbitMq;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Auth.Api.Controllers

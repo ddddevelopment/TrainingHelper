@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Programming\\Projects\\TrainingHelper\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1858811-BEFB-4D54-8DF6-C9B985EC600C}|src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|d:\\programming\\projects\\traininghelper\\src\\extentions\\messagebroker.rabbitmq\\rpcserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1858811-BEFB-4D54-8DF6-C9B985EC600C}|src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj|solutionrelative:src\\extentions\\messagebroker.rabbitmq\\rpcserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9911804B-B63C-4A67-965A-28D3BBE8315A}|src\\Services\\Users\\Users.Api\\Users.Api.csproj|solutionrelative:src\\services\\users\\users.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED96D90-AD11-47ED-98AF-2FACC195780D}|src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj|solutionrelative:src\\services\\auth\\auth.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE29DCDD-E03B-4293-9DD2-2A704FC0CCE3}|src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\Auth.MessageBroker.RabbitMQ.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\infrastructure\\auth.messagebroker.rabbitmq\\rpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE29DCDD-E03B-4293-9DD2-2A704FC0CCE3}|src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\Auth.MessageBroker.RabbitMQ.csproj|solutionrelative:src\\services\\auth\\infrastructure\\auth.messagebroker.rabbitmq\\rpcclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B70DE30-0946-4513-853B-F15167292D15}|src\\Services\\Users\\Infrastructure\\Users.MessageBroker.RabbitMQ\\Users.MessageBroker.RabbitMQ.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\infrastructure\\users.messagebroker.rabbitmq\\rpcserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B70DE30-0946-4513-853B-F15167292D15}|src\\Services\\Users\\Infrastructure\\Users.MessageBroker.RabbitMQ\\Users.MessageBroker.RabbitMQ.csproj|solutionrelative:src\\services\\users\\infrastructure\\users.messagebroker.rabbitmq\\rpcserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\users\\users.domain\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9ED3AB29-4D41-43DA-9597-F8BDA31DC13A}|src\\Services\\Users\\Users.Domain\\Users.Domain.csproj|solutionrelative:src\\services\\users\\users.domain\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|d:\\programming\\projects\\traininghelper\\src\\services\\auth\\auth.domain\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459C1D2C-2CAF-4BB1-9064-64CF85A9F7BA}|src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj|solutionrelative:src\\services\\auth\\auth.domain\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +44,7 @@
         },
         {
           "DockedHeight": 64,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -64,28 +80,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RpcServer.cs",
-              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\RpcServer.cs",
-              "RelativeDocumentMoniker": "src\\Extentions\\MessageBroker.RabbitMq\\RpcServer.cs",
-              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\RpcServer.cs",
-              "RelativeToolTip": "src\\Extentions\\MessageBroker.RabbitMq\\RpcServer.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAgwB8AAABRAAAA",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "src\\Services\\Auth\\Auth.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T16:37:04.893Z",
+              "WhenOpened": "2024-06-27T16:47:29.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Models\\UserLogin.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Auth\\Auth.Domain\\Models\\UserLogin.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Models\\UserLogin.cs",
+              "RelativeToolTip": "src\\Services\\Auth\\Auth.Domain\\Models\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:43:14.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Models\\UserLogin.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Domain\\Models\\UserLogin.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Models\\UserLogin.cs",
+              "RelativeToolTip": "src\\Services\\Users\\Users.Domain\\Models\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:43:06.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RpcServer.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Infrastructure\\Users.MessageBroker.RabbitMQ\\RpcServer.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Users\\Infrastructure\\Users.MessageBroker.RabbitMQ\\RpcServer.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Infrastructure\\Users.MessageBroker.RabbitMQ\\RpcServer.cs",
+              "RelativeToolTip": "src\\Services\\Users\\Infrastructure\\Users.MessageBroker.RabbitMQ\\RpcServer.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:41:51.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RpcClient.cs",
+              "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\RpcClient.cs",
+              "RelativeDocumentMoniker": "src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\RpcClient.cs",
+              "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\RpcClient.cs",
+              "RelativeToolTip": "src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\RpcClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T16:40:59.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Program.cs",
               "RelativeDocumentMoniker": "src\\Services\\Users\\Users.Api\\Program.cs",
               "ToolTip": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Api\\Program.cs",
               "RelativeToolTip": "src\\Services\\Users\\Users.Api\\Program.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAEwCwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T16:35:14.058Z"
+              "WhenOpened": "2024-06-21T16:35:14.058Z",
+              "EditorCaption": ""
             }
           ]
         },

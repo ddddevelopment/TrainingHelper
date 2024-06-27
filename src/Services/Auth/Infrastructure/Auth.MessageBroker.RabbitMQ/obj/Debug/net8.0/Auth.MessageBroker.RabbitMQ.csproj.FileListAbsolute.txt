@@ -1,0 +1,16 @@
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\bin\Debug\net8.0\Auth.MessageBroker.RabbitMQ.deps.json
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\bin\Debug\net8.0\Auth.MessageBroker.RabbitMQ.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\bin\Debug\net8.0\Auth.MessageBroker.RabbitMQ.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\bin\Debug\net8.0\Auth.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\bin\Debug\net8.0\Auth.Domain.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\Auth.MessageBroker.RabbitMQ.csproj.AssemblyReference.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\Auth.MessageBroker.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\Auth.MessageBroker.RabbitMQ.AssemblyInfoInputs.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\Auth.MessageBroker.RabbitMQ.AssemblyInfo.cs
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\Auth.MessageBroker.RabbitMQ.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\Auth.MessageBroker.RabbitMQ.sourcelink.json
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\Auth.Mes.882E8885.Up2Date
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\Auth.MessageBroker.RabbitMQ.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\refint\Auth.MessageBroker.RabbitMQ.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\Auth.MessageBroker.RabbitMQ.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Infrastructure\Auth.MessageBroker.RabbitMQ\obj\Debug\net8.0\ref\Auth.MessageBroker.RabbitMQ.dll

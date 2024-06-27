@@ -4,79 +4,6 @@
     "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj",
-        "projectName": "MessageBroker.RabbitMq",
-        "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj",
-        "packagesPath": "C:\\Users\\dgorb\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\dgorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj"
-              },
-              "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Users.DAL.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Users.DAL.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "RabbitMQ.Client": {
-              "target": "Package",
-              "version": "[6.8.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Api\\Auth.Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -101,14 +28,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Extentions\\MessageBroker.RabbitMq\\MessageBroker.RabbitMq.csproj"
-              },
               "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Application\\Auth.Application.csproj"
               },
               "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj": {
                 "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj"
+              },
+              "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\Auth.MessageBroker.RabbitMQ.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\Auth.MessageBroker.RabbitMQ.csproj"
               }
             }
           }
@@ -308,14 +235,14 @@
         }
       }
     },
-    "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Users.DAL.csproj": {
+    "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\Auth.MessageBroker.RabbitMQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Users.DAL.csproj",
-        "projectName": "Users.DAL",
-        "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\Users.DAL.csproj",
+        "projectUniqueName": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\Auth.MessageBroker.RabbitMQ.csproj",
+        "projectName": "Auth.MessageBroker.RabbitMQ",
+        "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\Auth.MessageBroker.RabbitMQ.csproj",
         "packagesPath": "C:\\Users\\dgorb\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.DAL\\obj\\",
+        "outputPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dgorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -332,8 +259,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Users.Domain.csproj": {
-                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Users.Domain.csproj"
+              "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj": {
+                "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Auth.Domain\\Auth.Domain.csproj"
               }
             }
           }
@@ -353,75 +280,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "AutoMapper": {
+            "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[13.0.1, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[6.8.1, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Users.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Users.Domain.csproj",
-        "projectName": "Users.Domain",
-        "projectPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\Users.Domain.csproj",
-        "packagesPath": "C:\\Users\\dgorb\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Users\\Users.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\dgorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",

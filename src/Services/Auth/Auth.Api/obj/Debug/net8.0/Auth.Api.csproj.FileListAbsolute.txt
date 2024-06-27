@@ -44,12 +44,7 @@ D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Auth.Application.pdb
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Auth.Domain.pdb
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
-D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\MessageBroker.RabbitMq.dll
-D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Users.Domain.dll
-D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\MessageBroker.RabbitMq.pdb
-D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Users.Domain.pdb
-D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Npgsql.dll
-D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Users.DAL.dll
-D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Users.DAL.pdb
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\obj\Debug\net8.0\Auth.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Auth.MessageBroker.RabbitMQ.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Auth\Auth.Api\bin\Debug\net8.0\Auth.MessageBroker.RabbitMQ.pdb

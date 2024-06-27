@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "DLiB9lFixpZXEASQ1jlH2e7bBRpSS6jBtxRiOzF+XNwQuUsNF1AoK4+S+vpz2aUKElzyCj0N3bhEkoLp1XMqmQ==",
+  "success": true,
+  "projectFilePath": "D:\\Programming\\Projects\\TrainingHelper\\src\\Services\\Auth\\Infrastructure\\Auth.MessageBroker.RabbitMQ\\Auth.MessageBroker.RabbitMQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.identitymodel.logging\\7.1.2\\microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\dgorb\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,10 +1,10 @@
-using MessageBroker.RabbitMq;
 using Users.Api;
 using Users.Application.Services;
 using Users.DAL;
 using Users.DAL.Repositories;
 using Users.Domain.Abstractions.Repositories;
 using Users.Domain.Abstractions.Services;
+using Users.MessageBroker.RabbitMQ;
 
 
 var builder = WebApplication.CreateBuilder(args);

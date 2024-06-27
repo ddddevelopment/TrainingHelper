@@ -10,12 +10,12 @@
         "dependencies": {
           "AutoMapper": "13.0.1",
           "BCrypt.Net-Next": "4.0.3",
-          "MessageBroker.RabbitMq": "1.0.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.19.6",
           "Swashbuckle.AspNetCore": "6.4.0",
           "Users.Application": "1.0.0",
           "Users.DAL": "1.0.0",
-          "Users.Domain": "1.0.0"
+          "Users.Domain": "1.0.0",
+          "Users.MessageBroker.RabbitMQ": "1.0.0"
         },
         "runtime": {
           "Users.Api.dll": {}
@@ -56,36 +56,6 @@
       "Microsoft.Extensions.Primitives/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        }
-      },
-      "Microsoft.IdentityModel.Abstractions/7.1.2": {
-        "runtime": {
-          "lib/net8.0/Microsoft.IdentityModel.Abstractions.dll": {
-            "assemblyVersion": "7.1.2.0",
-            "fileVersion": "7.1.2.41121"
-          }
-        }
-      },
-      "Microsoft.IdentityModel.Logging/7.1.2": {
-        "dependencies": {
-          "Microsoft.IdentityModel.Abstractions": "7.1.2"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.IdentityModel.Logging.dll": {
-            "assemblyVersion": "7.1.2.0",
-            "fileVersion": "7.1.2.41121"
-          }
-        }
-      },
-      "Microsoft.IdentityModel.Tokens/7.1.2": {
-        "dependencies": {
-          "Microsoft.IdentityModel.Logging": "7.1.2"
-        },
-        "runtime": {
-          "lib/net8.0/Microsoft.IdentityModel.Tokens.dll": {
-            "assemblyVersion": "7.1.2.0",
-            "fileVersion": "7.1.2.41121"
-          }
         }
       },
       "Microsoft.OpenApi/1.2.3": {
@@ -161,24 +131,6 @@
       "System.Memory/4.5.5": {},
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "System.Threading.Channels/7.0.0": {},
-      "Auth.Domain/1.0.0": {
-        "dependencies": {
-          "Microsoft.IdentityModel.Tokens": "7.1.2"
-        },
-        "runtime": {
-          "Auth.Domain.dll": {}
-        }
-      },
-      "MessageBroker.RabbitMq/1.0.0": {
-        "dependencies": {
-          "Auth.Domain": "1.0.0",
-          "RabbitMQ.Client": "6.8.1",
-          "Users.DAL": "1.0.0"
-        },
-        "runtime": {
-          "MessageBroker.RabbitMq.dll": {}
-        }
-      },
       "Users.Application/1.0.0": {
         "dependencies": {
           "Users.Domain": "1.0.0"
@@ -200,6 +152,15 @@
       "Users.Domain/1.0.0": {
         "runtime": {
           "Users.Domain.dll": {}
+        }
+      },
+      "Users.MessageBroker.RabbitMQ/1.0.0": {
+        "dependencies": {
+          "RabbitMQ.Client": "6.8.1",
+          "Users.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Users.MessageBroker.RabbitMQ.dll": {}
         }
       }
     }
@@ -258,27 +219,6 @@
       "sha512": "sha512-9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
       "path": "microsoft.extensions.primitives/6.0.0",
       "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
-    },
-    "Microsoft.IdentityModel.Abstractions/7.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-33eTIA2uO/L9utJjZWbKsMSVsQf7F8vtd6q5mQX7ZJzNvCpci5fleD6AeANGlbbb7WX7XKxq9+Dkb5e3GNDrmQ==",
-      "path": "microsoft.identitymodel.abstractions/7.1.2",
-      "hashPath": "microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512"
-    },
-    "Microsoft.IdentityModel.Logging/7.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-YCxBt2EeJP8fcXk9desChkWI+0vFqFLvBwrz5hBMsoh0KJE6BC66DnzkdzkJNqMltLromc52dkdT206jJ38cTw==",
-      "path": "microsoft.identitymodel.logging/7.1.2",
-      "hashPath": "microsoft.identitymodel.logging.7.1.2.nupkg.sha512"
-    },
-    "Microsoft.IdentityModel.Tokens/7.1.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oICJMqr3aNEDZOwnH5SK49bR6Z4aX0zEAnOLuhloumOSuqnNq+GWBdQyrgILnlcT5xj09xKCP/7Y7gJYB+ls/g==",
-      "path": "microsoft.identitymodel.tokens/7.1.2",
-      "hashPath": "microsoft.identitymodel.tokens.7.1.2.nupkg.sha512"
     },
     "Microsoft.OpenApi/1.2.3": {
       "type": "package",
@@ -357,16 +297,6 @@
       "path": "system.threading.channels/7.0.0",
       "hashPath": "system.threading.channels.7.0.0.nupkg.sha512"
     },
-    "Auth.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MessageBroker.RabbitMq/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Users.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -378,6 +308,11 @@
       "sha512": ""
     },
     "Users.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Users.MessageBroker.RabbitMQ/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

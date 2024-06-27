@@ -1,0 +1,16 @@
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\bin\Debug\net8.0\Users.MessageBroker.RabbitMQ.deps.json
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\bin\Debug\net8.0\Users.MessageBroker.RabbitMQ.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\bin\Debug\net8.0\Users.MessageBroker.RabbitMQ.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\bin\Debug\net8.0\Users.Domain.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\bin\Debug\net8.0\Users.Domain.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\Users.MessageBroker.RabbitMQ.csproj.AssemblyReference.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\Users.MessageBroker.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\Users.MessageBroker.RabbitMQ.AssemblyInfoInputs.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\Users.MessageBroker.RabbitMQ.AssemblyInfo.cs
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\Users.MessageBroker.RabbitMQ.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\Users.MessageBroker.RabbitMQ.sourcelink.json
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\Users.Me.88AB2930.Up2Date
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\Users.MessageBroker.RabbitMQ.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\refint\Users.MessageBroker.RabbitMQ.dll
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\Users.MessageBroker.RabbitMQ.pdb
+D:\Programming\Projects\TrainingHelper\src\Services\Users\Infrastructure\Users.MessageBroker.RabbitMQ\obj\Debug\net8.0\ref\Users.MessageBroker.RabbitMQ.dll

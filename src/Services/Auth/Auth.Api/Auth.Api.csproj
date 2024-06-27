@@ -18,9 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Extentions\MessageBroker.RabbitMq\MessageBroker.RabbitMq.csproj" />
     <ProjectReference Include="..\Auth.Application\Auth.Application.csproj" />
     <ProjectReference Include="..\Auth.Domain\Auth.Domain.csproj" />
+    <ProjectReference Include="..\Infrastructure\Auth.MessageBroker.RabbitMQ\Auth.MessageBroker.RabbitMQ.csproj" />
   </ItemGroup>
 
 </Project>
