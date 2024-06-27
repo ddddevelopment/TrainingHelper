@@ -9,8 +9,8 @@ namespace Auth.MessageBroker.RabbitMQ
 {
     public class RpcClient
     {
-        private const string QUEUE_NAME = "rpc_queue";
-        private const string REPLY_QUEUE_NAME = "reply_queue";
+        private const string QUEUE_NAME = "users_request";
+        private const string REPLY_QUEUE_NAME = "users_response";
 
         private readonly IConnection _connection;
         private readonly IModel _channel;

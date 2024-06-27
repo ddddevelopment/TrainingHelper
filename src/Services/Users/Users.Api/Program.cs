@@ -26,7 +26,7 @@ builder.Services.AddSingleton(config => new DbConfiguration(dbConfiguration.GetS
 
 IServiceProvider serviceProvider = builder.Services.BuildServiceProvider();
 
-var rpcServer = new RpcServer("rpc_queue", serviceProvider.GetService<IUsersRepository>());
+var rpcServer = new RpcServer("users_request", serviceProvider.GetService<IUsersRepository>());
 
 var app = builder.Build();
 
