@@ -12,6 +12,8 @@ namespace MessageBroker.RabbitMq
     {
         private readonly string _queueName;
         private readonly IUsersRepository _usersRepository;
+        private IConnection _connection;
+        private IModel _channel;
 
         public RpcServer(string queueName, IUsersRepository usersRepository)
         {
@@ -19,17 +21,17 @@ namespace MessageBroker.RabbitMq
             _usersRepository = usersRepository;
 
             ConnectionFactory factory = new ConnectionFactory() { HostName = "localhost" };
-            IConnection connection = factory.CreateConnection();
+            _connection = factory.CreateConnection();
 
-            IModel channel = connection.CreateModel();
+            _channel = _connection.CreateModel();
 
-            channel.QueueDeclare(_queueName, false, false, false, null);
+            _channel.QueueDeclare(_queueName, false, false, false, null);
 
-            channel.BasicQos(0, 1, false);
+            _channel.BasicQos(0, 1, false);
 
-            EventingBasicConsumer consumer = new EventingBasicConsumer(channel);
+            EventingBasicConsumer consumer = new EventingBasicConsumer(_channel);
 
-            channel.BasicConsume(_queueName, true, consumer);
+            _channel.BasicConsume(_queueName, false, consumer);
 
             consumer.Received += async (model, eventArgs) =>
             {
@@ -37,7 +39,7 @@ namespace MessageBroker.RabbitMq
 
                 byte[] body = eventArgs.Body.ToArray();
                 IBasicProperties properties = eventArgs.BasicProperties;
-                IBasicProperties replyProperties = channel.CreateBasicProperties();
+                IBasicProperties replyProperties = _channel.CreateBasicProperties();
                 replyProperties.CorrelationId = properties.CorrelationId;
 
                 try
@@ -55,8 +57,8 @@ namespace MessageBroker.RabbitMq
                 finally
                 {
                     byte[] responseBytes = Encoding.UTF8.GetBytes(response);
-                    channel.BasicPublish(string.Empty, properties.ReplyTo, replyProperties, responseBytes);
-                    channel.BasicAck(eventArgs.DeliveryTag, false);
+                    _channel.BasicPublish(string.Empty, properties.ReplyTo, replyProperties, responseBytes);
+                    _channel.BasicAck(eventArgs.DeliveryTag, false);
                 }
             };
         }
